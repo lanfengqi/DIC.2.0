@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="9DC35EC0-469C-4865-ABA1-18FC83EA6482" ModuleId="Infrastructure.Crosscutting.SeedWork" />
+  <Module PersistentId="5BE8D1CB-DC29-432A-9638-455CBD794B3E" ModuleId="Infrastructure.Crosscutting.MainBoundedContent" />
+  <Module PersistentId="C2791115-EE1F-47DB-900C-C147C6F2716B" ModuleId="Presentantion.Web.MVC" />
+</Modules>
