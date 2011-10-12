@@ -1,0 +1,9 @@
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting\bin\Debug\Infrastructure.Crosscutting.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting\bin\Debug\Infrastructure.Crosscutting.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting\bin\Debug\Infrastructure.Crosscutting.MainBoundedContent.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting\bin\Debug\Infrastructure.Crosscutting.SeedWork.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting\bin\Debug\Infrastructure.Crosscutting.MainBoundedContent.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting\bin\Debug\Infrastructure.Crosscutting.SeedWork.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting\obj\Debug\ResolveAssemblyReference.cache
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting\obj\Debug\Infrastructure.Crosscutting.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting\obj\Debug\Infrastructure.Crosscutting.pdb

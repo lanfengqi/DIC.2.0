@@ -2,4 +2,6 @@
   <Module PersistentId="9DC35EC0-469C-4865-ABA1-18FC83EA6482" ModuleId="Infrastructure.Crosscutting.SeedWork" />
   <Module PersistentId="5BE8D1CB-DC29-432A-9638-455CBD794B3E" ModuleId="Infrastructure.Crosscutting.MainBoundedContent" />
   <Module PersistentId="C2791115-EE1F-47DB-900C-C147C6F2716B" ModuleId="Presentantion.Web.MVC" />
+  <Module PersistentId="07508E05-CABE-40C4-AC6F-C80B4D7F0047" ModuleId="Infrastructure.Crosscutting" />
+  <Module PersistentId="4C5E9B20-4375-46C7-B11D-95CCA69C28BF" ModuleId="Presentantion.Web.MVC.Tests" />
 </Modules>

@@ -8,6 +8,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Database", "2-Database", "{D8FD3204-300A-41DE-A1DE-29EED39A2D6B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{85BFBB7F-C3E5-4CB0-A4DF-A8EAA11B07C2}"
+	ProjectSection(SolutionItems) = preProject
+		DCIDemo.2.0.vsmdi = DCIDemo.2.0.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1-Presentation", "1.1-Presentation", "{733BF593-5FF2-4F7D-A6AE-0D7999BFC3C3}"
 EndProject
@@ -53,7 +58,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentantion.Web.MVC", "Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentantion.Web.MVC.Tests", "Presentantion.Web.MVC.Tests\Presentantion.Web.MVC.Tests.csproj", "{4C5E9B20-4375-46C7-B11D-95CCA69C28BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Crosscutting.Tests", "Infrastructure.Crosscutting\Infrastructure.Crosscutting.Tests.csproj", "{07508E05-CABE-40C4-AC6F-C80B4D7F0047}"
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DCIDemo.2.0.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -75,6 +85,10 @@ Global
 		{4C5E9B20-4375-46C7-B11D-95CCA69C28BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C5E9B20-4375-46C7-B11D-95CCA69C28BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C5E9B20-4375-46C7-B11D-95CCA69C28BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07508E05-CABE-40C4-AC6F-C80B4D7F0047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07508E05-CABE-40C4-AC6F-C80B4D7F0047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07508E05-CABE-40C4-AC6F-C80B4D7F0047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07508E05-CABE-40C4-AC6F-C80B4D7F0047}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,7 +114,11 @@ Global
 		{85C23601-48EC-4A9A-816B-62789E1022CB} = {234DC226-19B2-4098-B6DF-010830AA6539}
 		{2E88AC17-FC2C-49DA-B305-228B14BC446F} = {A8000BA1-65CB-4A55-9AFF-90A4D9B18D9B}
 		{52CB2E64-0CFB-43A1-B597-394E4AB88A9A} = {A8000BA1-65CB-4A55-9AFF-90A4D9B18D9B}
+		{07508E05-CABE-40C4-AC6F-C80B4D7F0047} = {A8000BA1-65CB-4A55-9AFF-90A4D9B18D9B}
 		{9DC35EC0-469C-4865-ABA1-18FC83EA6482} = {2E88AC17-FC2C-49DA-B305-228B14BC446F}
 		{5BE8D1CB-DC29-432A-9638-455CBD794B3E} = {52CB2E64-0CFB-43A1-B597-394E4AB88A9A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
 	EndGlobalSection
 EndGlobal
