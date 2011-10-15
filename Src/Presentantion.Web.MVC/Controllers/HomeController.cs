@@ -6,19 +6,15 @@ using System.Web.Mvc;
 
 namespace Presentantion.Web.MVC.Controllers
 {
-    [HandleError]
     public class HomeController : Controller
     {
+        //
+        // GET: /Home/
+
         public ActionResult Index()
         {
-            ViewData["Message"] = "Welcome to ASP.NET MVC!";
-
             return View();
         }
 
-        public ActionResult About()
-        {
-            return View();
-        }
     }
 }

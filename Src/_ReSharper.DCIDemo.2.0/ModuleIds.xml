@@ -4,4 +4,6 @@
   <Module PersistentId="C2791115-EE1F-47DB-900C-C147C6F2716B" ModuleId="Presentantion.Web.MVC" />
   <Module PersistentId="07508E05-CABE-40C4-AC6F-C80B4D7F0047" ModuleId="Infrastructure.Crosscutting" />
   <Module PersistentId="4C5E9B20-4375-46C7-B11D-95CCA69C28BF" ModuleId="Presentantion.Web.MVC.Tests" />
+  <Module PersistentId="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7" ModuleId="Domain.Seedwork" />
+  <Module PersistentId="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C" ModuleId="Presentantion.Web.MVC_1" />
 </Modules>
