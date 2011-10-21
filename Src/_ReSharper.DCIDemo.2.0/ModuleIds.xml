@@ -1,9 +1,14 @@
 <Modules>
   <Module PersistentId="9DC35EC0-469C-4865-ABA1-18FC83EA6482" ModuleId="Infrastructure.Crosscutting.SeedWork" />
   <Module PersistentId="5BE8D1CB-DC29-432A-9638-455CBD794B3E" ModuleId="Infrastructure.Crosscutting.MainBoundedContent" />
-  <Module PersistentId="C2791115-EE1F-47DB-900C-C147C6F2716B" ModuleId="Presentantion.Web.MVC" />
-  <Module PersistentId="07508E05-CABE-40C4-AC6F-C80B4D7F0047" ModuleId="Infrastructure.Crosscutting" />
-  <Module PersistentId="4C5E9B20-4375-46C7-B11D-95CCA69C28BF" ModuleId="Presentantion.Web.MVC.Tests" />
   <Module PersistentId="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7" ModuleId="Domain.Seedwork" />
   <Module PersistentId="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C" ModuleId="Presentantion.Web.MVC_1" />
+  <Module PersistentId="14981B46-4051-4488-BB96-9F5C7F524C73" ModuleId="Infrastructure.Crosscutting.Tests" />
+  <Module PersistentId="A664D2CA-8B17-419D-B16D-063568E4CA4A" ModuleId="Infrastructure.Data.Seedwork" />
+  <Module PersistentId="74093D4B-7A23-4B5E-8340-6F8167B0DFEC" ModuleId="Infrastructure.Data.Tests" />
+  <Module PersistentId="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="mscorlib" />
+  <Module PersistentId="302895AC-3A6C-45F8-B67F-C02A82600F83" ModuleId="Domain.MainBoundedContext" />
+  <Module PersistentId="F216928E-132C-4A6A-A927-9728429049F0" ModuleId="Domain.Tests" />
+  <Module PersistentId="F57247EB-6D05-44A3-9D85-07278DDC1BF1" ModuleId="ConsoleApplication1" />
+  <Module PersistentId="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3" ModuleId="Infrastructure.Data.MainBoundedContext" />
 </Modules>

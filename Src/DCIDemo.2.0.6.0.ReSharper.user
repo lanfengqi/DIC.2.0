@@ -1,122 +1,250 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="C2791115-EE1F-47DB-900C-C147C6F2716B/d:Controllers/f:HomeController.cs" caret="433" fromTop="19" />
-      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Logging/f:ILogger.cs" caret="851" fromTop="19" />
-      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Ioc/f:IIocFactory.cs" caret="339" fromTop="13" />
-      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Ioc/f:IocFactory.cs" caret="580" fromTop="19" />
-      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Logging/f:TraceSourceLogFactory.cs" caret="631" fromTop="22" />
-      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Logging/f:TraceSourceLog.cs" caret="884" fromTop="22" />
-      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Logging/f:ILoggerFactory.cs" caret="353" fromTop="14" />
-      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Logging/f:LoggerFactory.cs" caret="370" fromTop="16" />
-      <File id="4C5E9B20-4375-46C7-B11D-95CCA69C28BF/d:Controllers/f:HomeControllerTest.cs" caret="375" fromTop="14" />
-      <File id="07508E05-CABE-40C4-AC6F-C80B4D7F0047/f:TraceSourceLogTest.cs" caret="376" fromTop="3" />
-      <File id="07508E05-CABE-40C4-AC6F-C80B4D7F0047/f:ShortLivedObject.cs" caret="0" fromTop="0" />
-      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Unity/f:InstanceLocator.cs" caret="1292" fromTop="12" />
-      <File id="07508E05-CABE-40C4-AC6F-C80B4D7F0047/f:InstanceLocatorTest.cs" caret="1036" fromTop="16" />
-      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Unity/f:InstanceLocatorFactory.cs" caret="1076" fromTop="9" />
-      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Ioc/f:IInstanceLocator.cs" caret="461" fromTop="0" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Entities/f:BorrowInfo.cs" caret="0" fromTop="0" />
+      <File id="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7/d:Entities/f:IEntity.cs" caret="165" fromTop="7" />
+      <File id="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7/d:Entities/f:IAggregateRoot.cs" caret="150" fromTop="5" />
+      <File id="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7/d:Repository/f:IRepository.cs" caret="217" fromTop="8" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Repositories/f:ILibraryAccountRepository.cs" caret="13" fromTop="0" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Repositories/f:IBorrowInfoRepository.cs" caret="141" fromTop="6" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Repositories/f:IBookRepository.cs" caret="212" fromTop="7" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Repositories/f:BorrowInfoRepository.cs" caret="387" fromTop="11" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Repositories/f:LibraryAccountRepository.cs" caret="562" fromTop="14" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:DbSnap.xml" caret="0" fromTop="0" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:Book.hbm.xml" caret="0" fromTop="0" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:BorrowInfo.hbm.xml" caret="497" fromTop="12" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:LibraryAccount.hbm.xml" caret="0" fromTop="0" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:BookStoreInfo.hbm.xml" caret="493" fromTop="12" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:BookOutInfo.hbm.xml" caret="505" fromTop="12" />
+      <File id="14981B46-4051-4488-BB96-9F5C7F524C73/f:log4netlogTest.cs" caret="482" fromTop="13" />
+      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Unity/f:InstanceLocator.cs" caret="903" fromTop="12" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Contexts/f:BorrowBooksContext.cs" caret="475" fromTop="14" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Roles/f:Borrower.cs" caret="1001" fromTop="14" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Services/f:LibraryService.cs" caret="703" fromTop="13" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:IDatabaseFactory.cs" caret="0" fromTop="0" />
+      <File id="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7/d:Repository/f:IUnitOfWork.cs" caret="338" fromTop="14" />
+      <File id="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7/d:Repository/f:IPersistableRepository.cs" caret="0" fromTop="0" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:UnitOfWork.cs" caret="0" fromTop="0" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Repositories/f:BookRepository.cs" caret="0" fromTop="0" />
+      <File id="F216928E-132C-4A6A-A927-9728429049F0/f:UnitTest1.cs" caret="3342" fromTop="12" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:DatabaseFactory.cs" caret="566" fromTop="8" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:Repository.cs" caret="1763" fromTop="11" />
     </RecentFiles>
     <RecentEdits>
-      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Logging/f:ILoggerFactory.cs" caret="0" fromTop="0" />
-      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Unity/f:InstanceLocator.cs" caret="173" fromTop="6" />
-      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Unity/f:InstanceLocator.cs" caret="879" fromTop="19" />
-      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Unity/f:InstanceLocator.cs" caret="302" fromTop="8" />
-      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Unity/f:InstanceLocator.cs" caret="504" fromTop="16" />
-      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Unity/f:InstanceLocator.cs" caret="797" fromTop="23" />
-      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Unity/f:InstanceLocator.cs" caret="1541" fromTop="29" />
-      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Unity/f:InstanceLocatorFactory.cs" caret="173" fromTop="6" />
-      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Ioc/f:IocFactory.cs" caret="922" fromTop="24" />
-      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Ioc/f:IocFactory.cs" caret="0" fromTop="0" />
-      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Ioc/f:IocFactory.cs" caret="922" fromTop="16" />
-      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Unity/f:InstanceLocatorFactory.cs" caret="1034" fromTop="22" />
-      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Unity/f:InstanceLocatorFactory.cs" caret="432" fromTop="10" />
-      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Unity/f:InstanceLocatorFactory.cs" caret="1066" fromTop="19" />
-      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Logging/f:LoggerFactory.cs" caret="406" fromTop="16" />
-      <File id="07508E05-CABE-40C4-AC6F-C80B4D7F0047/f:ShortLivedObject.cs" caret="944" fromTop="17" />
-      <File id="07508E05-CABE-40C4-AC6F-C80B4D7F0047/f:TraceSourceLogTest.cs" caret="304" fromTop="8" />
-      <File id="07508E05-CABE-40C4-AC6F-C80B4D7F0047/f:InstanceLocatorTest.cs" caret="289" fromTop="5" />
-      <File id="07508E05-CABE-40C4-AC6F-C80B4D7F0047/f:InstanceLocatorTest.cs" caret="1526" fromTop="33" />
-      <File id="07508E05-CABE-40C4-AC6F-C80B4D7F0047/f:InstanceLocatorTest.cs" caret="1526" fromTop="15" />
-      <File id="07508E05-CABE-40C4-AC6F-C80B4D7F0047/f:InstanceLocatorTest.cs" caret="1139" fromTop="15" />
-      <File id="07508E05-CABE-40C4-AC6F-C80B4D7F0047/f:InstanceLocatorTest.cs" caret="1516" fromTop="27" />
-      <File id="07508E05-CABE-40C4-AC6F-C80B4D7F0047/f:InstanceLocatorTest.cs" caret="1510" fromTop="27" />
-      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Unity/f:InstanceLocator.cs" caret="730" fromTop="27" />
-      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Unity/f:InstanceLocatorFactory.cs" caret="712" fromTop="22" />
-      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Unity/f:InstanceLocator.cs" caret="1329" fromTop="14" />
-      <File id="07508E05-CABE-40C4-AC6F-C80B4D7F0047/f:InstanceLocatorTest.cs" caret="851" fromTop="12" />
-      <File id="07508E05-CABE-40C4-AC6F-C80B4D7F0047/f:InstanceLocatorTest.cs" caret="1365" fromTop="26" />
-      <File id="07508E05-CABE-40C4-AC6F-C80B4D7F0047/f:InstanceLocatorTest.cs" caret="987" fromTop="14" />
-      <File id="07508E05-CABE-40C4-AC6F-C80B4D7F0047/f:InstanceLocatorTest.cs" caret="628" fromTop="6" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:Repository.cs" caret="645" fromTop="18" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Repositories/f:IBorrowInfoRepository.cs" caret="148" fromTop="6" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Services/f:LibraryService.cs" caret="178" fromTop="5" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Services/f:LibraryService.cs" caret="678" fromTop="15" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Services/f:LibraryService.cs" caret="690" fromTop="20" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:Book.hbm.xml" caret="176" fromTop="3" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:BookOutInfo.hbm.xml" caret="187" fromTop="3" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:BookStoreInfo.hbm.xml" caret="187" fromTop="3" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:BorrowInfo.hbm.xml" caret="187" fromTop="3" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:LibraryAccount.hbm.xml" caret="187" fromTop="3" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Repositories/f:IBookRepository.cs" caret="93" fromTop="3" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Repositories/f:IBookRepository.cs" caret="212" fromTop="7" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Repositories/f:ILibraryAccountRepository.cs" caret="232" fromTop="9" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Repositories/f:ILibraryAccountRepository.cs" caret="13" fromTop="0" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Repositories/f:BookRepository.cs" caret="431" fromTop="13" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Repositories/f:BorrowInfoRepository.cs" caret="387" fromTop="11" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Repositories/f:LibraryAccountRepository.cs" caret="610" fromTop="18" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Repositories/f:LibraryAccountRepository.cs" caret="562" fromTop="14" />
+      <File id="F216928E-132C-4A6A-A927-9728429049F0/f:UnitTest1.cs" caret="875" fromTop="14" />
+      <File id="F216928E-132C-4A6A-A927-9728429049F0/f:UnitTest1.cs" caret="3203" fromTop="26" />
+      <File id="F216928E-132C-4A6A-A927-9728429049F0/f:UnitTest1.cs" caret="2770" fromTop="28" />
+      <File id="F216928E-132C-4A6A-A927-9728429049F0/f:UnitTest1.cs" caret="781" fromTop="13" />
+      <File id="F216928E-132C-4A6A-A927-9728429049F0/f:UnitTest1.cs" caret="2337" fromTop="11" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:BorrowInfo.hbm.xml" caret="819" fromTop="16" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:BookOutInfo.hbm.xml" caret="505" fromTop="12" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:BookStoreInfo.hbm.xml" caret="493" fromTop="12" />
+      <File id="F216928E-132C-4A6A-A927-9728429049F0/f:UnitTest1.cs" caret="1988" fromTop="20" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:DatabaseFactory.cs" caret="978" fromTop="8" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:Repository.cs" caret="873" fromTop="18" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:DatabaseFactory.cs" caret="1310" fromTop="26" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="public" priority="600" />
-      <Item value="static" priority="94" />
-      <Item value="ILoggerFactory`0" priority="63" />
-      <Item value="null" priority="31" />
+      <Item value="public" priority="1945" />
+      <Item value="static" priority="220" />
+      <Item value="ILoggerFactory`0" priority="127" />
+      <Item value="null" priority="287" />
       <Item value="#region" priority="31" />
       <Item value="#endregion" priority="223" />
-      <Item value="using" priority="340" />
-      <Item value="Infrastructure.Crosscutting" priority="185" />
+      <Item value="using" priority="960" />
+      <Item value="Infrastructure.Crosscutting" priority="278" />
       <Item value="SeedWork.Logging" priority="53" />
-      <Item value="ILogger`0" priority="127" />
+      <Item value="ILogger`0" priority="191" />
       <Item value="TestContext`0" priority="31" />
       <Item value="context" priority="32" />
-      <Item value="Infrastructure" priority="30" />
-      <Item value="Crosscutting" priority="26" />
-      <Item value="SeedWork" priority="107" />
+      <Item value="Infrastructure" priority="375" />
+      <Item value="Crosscutting" priority="134" />
+      <Item value="SeedWork" priority="269" />
       <Item value="MainBoundedContent.Logging" priority="26" />
-      <Item value="LoggerFactory`0" priority="159" />
-      <Item value="new" priority="351" />
+      <Item value="LoggerFactory`0" priority="191" />
+      <Item value="new" priority="959" />
       <Item value="TraceSourceLogFactory" priority="28" />
       <Item value="partial" priority="30" />
-      <Item value="logger" priority="226" />
+      <Item value="logger" priority="292" />
       <Item value="void" priority="127" />
       <Item value="TestMethod" priority="95" />
-      <Item value="interface" priority="62" />
-      <Item value="IInstanceLocator`0" priority="223" />
+      <Item value="interface" priority="124" />
+      <Item value="IInstanceLocator`0" priority="287" />
       <Item value="IIocFactory`0" priority="63" />
-      <Item value="Ioc" priority="80" />
-      <Item value="private" priority="127" />
+      <Item value="Ioc" priority="215" />
+      <Item value="private" priority="287" />
       <Item value="Microsoft" priority="92" />
       <Item value="Practices" priority="80" />
       <Item value="Unity" priority="107" />
       <Item value="IUnityContainer`0" priority="159" />
       <Item value="_unityContainer" priority="64" />
-      <Item value="unityContainer" priority="259" />
-      <Item value="this" priority="159" />
-      <Item value="base" priority="31" />
+      <Item value="unityContainer" priority="323" />
+      <Item value="this" priority="319" />
+      <Item value="base" priority="63" />
       <Item value="UnityContainer" priority="86" />
       <Item value="InstanceLocator" priority="115" />
-      <Item value="return" priority="31" />
+      <Item value="return" priority="191" />
       <Item value="_instanceLocator" priority="32" />
       <Item value="IFormatProvider`0" priority="31" />
       <Item value="InstanceLocator`0" priority="63" />
       <Item value="InstanceLocatorFactory`0" priority="31" />
       <Item value="ClassInitialize" priority="31" />
       <Item value="MainBoundedContent" priority="26" />
-      <Item value="IocFactory`0" priority="95" />
+      <Item value="IocFactory`0" priority="304" />
       <Item value="InstanceLocatorFactory" priority="28" />
-      <Item value="instanceLocator" priority="65" />
+      <Item value="instanceLocator" priority="98" />
       <Item value="instance" priority="63" />
       <Item value="disposable" priority="64" />
-      <Item value="Assert`0" priority="63" />
-      <Item value="IDisposable`0" priority="127" />
+      <Item value="Assert`0" priority="95" />
+      <Item value="IDisposable`0" priority="223" />
       <Item value="ShortLivedObject`0" priority="31" />
-      <Item value="ContainerControlledLifetimeManager" priority="28" />
-      <Item value="object" priority="63" />
-      <Item value="typeof" priority="95" />
+      <Item value="ContainerControlledLifetimeManager" priority="86" />
+      <Item value="object" priority="95" />
+      <Item value="typeof" priority="127" />
       <Item value="obj" priority="63" />
-      <Item value="bool" priority="31" />
+      <Item value="bool" priority="63" />
+      <Item value="IEntity" priority="31" />
+      <Item value="System" priority="186" />
+      <Item value="Linq" priority="26" />
+      <Item value="Infrastructure.Crosscutting.SeedWork" priority="30" />
+      <Item value="IoCFactory" priority="31" />
+      <Item value="Instance" priority="26" />
+      <Item value="Logging" priority="80" />
+      <Item value="log" priority="63" />
+      <Item value="traceData" priority="31" />
+      <Item value="Data" priority="134" />
+      <Item value="Log4netLog" priority="29" />
+      <Item value="Log4netLogFactory" priority="58" />
+      <Item value="IUnitOfWork`0" priority="127" />
+      <Item value="UnitOfWork" priority="32" />
+      <Item value="Domain.Seedwork" priority="61" />
+      <Item value="Repository" priority="80" />
+      <Item value="IDatabaseFactory`0" priority="95" />
+      <Item value="iUnitOfWork" priority="63" />
+      <Item value="_unitOfWork" priority="64" />
+      <Item value="if" priority="159" />
+      <Item value="item" priority="95" />
+      <Item value="TAggregateRoot`0" priority="95" />
+      <Item value="session" priority="127" />
+      <Item value="IRepository" priority="31" />
+      <Item value="Crosscutting.SeedWork" priority="53" />
+      <Item value="else" priority="31" />
+      <Item value="message" priority="31" />
+      <Item value="Messages" priority="31" />
+      <Item value="crit" priority="95" />
+      <Item value="Order" priority="29" />
+      <Item value="specification" priority="31" />
+      <Item value="ILoadBalanceScheduling`0" priority="127" />
+      <Item value="List" priority="63" />
+      <Item value="IEnumerable" priority="31" />
+      <Item value="Data.Seedwork" priority="26" />
+      <Item value="Scheduling" priority="107" />
+      <Item value="loadBalanceScheduling" priority="64" />
+      <Item value="DbSnapInfo`0" priority="63" />
+      <Item value="dbSnapInfo" priority="287" />
+      <Item value="Configuration" priority="58" />
+      <Item value="cfg" priority="319" />
+      <Item value="MsSql2008Dialect`0" priority="31" />
+      <Item value="sessionFactory" priority="31" />
+      <Item value="Domain" priority="187" />
+      <Item value="Seedwork" priority="242" />
+      <Item value="string" priority="95" />
+      <Item value="IConfigInfo`0" priority="31" />
+      <Item value="Deserialize`0" priority="31" />
+      <Item value="_Path" priority="31" />
+      <Item value="DbSnapAppConfig`0" priority="129" />
+      <Item value="objDbSnapapp" priority="127" />
+      <Item value="DbSnapConfigs`0" priority="26" />
+      <Item value="dbSnapConfigs" priority="64" />
+      <Item value="DbSnapConfigs" priority="28" />
+      <Item value="HttpStyleUriParser`0" priority="31" />
+      <Item value="HttpContext" priority="63" />
+      <Item value="Web" priority="26" />
+      <Item value="HttpUtility`0" priority="31" />
+      <Item value="HttpContext`0" priority="31" />
+      <Item value="Url" priority="63" />
+      <Item value="snapAppConfig" priority="192" />
+      <Item value="DbSnapAppConfig" priority="28" />
+      <Item value="true" priority="96" />
+      <Item value="List&lt;DbSnapInfo&gt;" priority="57" />
+      <Item value="DbSnapInfo" priority="28" />
+      <Item value="DbconnectString" priority="31" />
+      <Item value="Enable" priority="32" />
+      <Item value="SouceID" priority="32" />
+      <Item value="Weight" priority="32" />
+      <Item value="Serialize`0" priority="31" />
+      <Item value="Infrastructure.Data" priority="30" />
+      <Item value="DatabaseFactory`0" priority="63" />
+      <Item value="databaseFactory" priority="64" />
+      <Item value="DatabaseFactory" priority="28" />
+      <Item value="WeightedRoundRobinScheduling`0" priority="95" />
+      <Item value="RoundRobinScheduling" priority="28" />
+      <Item value="weighted" priority="64" />
+      <Item value="WeightedRoundRobinScheduling" priority="28" />
+      <Item value="Tool" priority="26" />
+      <Item value="XmlSerializers`0" priority="31" />
+      <Item value="GetEnableSnapList`0" priority="63" />
+      <Item value="Collections" priority="26" />
+      <Item value="IList`0" priority="31" />
+      <Item value="nDbSnapInfos" priority="32" />
+      <Item value="dbSnap" priority="31" />
+      <Item value="BorrowInfo`0" priority="31" />
+      <Item value="ILibraryService`0" priority="63" />
+      <Item value="libraryService" priority="96" />
+      <Item value="book" priority="63" />
+      <Item value="LibraryService" priority="28" />
+      <Item value="Entities" priority="26" />
+      <Item value="Guid`0" priority="31" />
+      <Item value="MainBoundedContext" priority="53" />
+      <Item value="Repositories" priority="80" />
+      <Item value="IBorrowInfoRepository`0" priority="95" />
+      <Item value="borrowInfoRepository" priority="129" />
+      <Item value="BorrowInfo" priority="28" />
+      <Item value="libraryAccount" priority="63" />
+      <Item value="DateTime`0" priority="31" />
+      <Item value="BookRepository`0" priority="127" />
+      <Item value="IBookRepository`0" priority="63" />
+      <Item value="Data.MainBoundedContext" priority="26" />
+      <Item value="ILibraryAccountRepository`0" priority="63" />
+      <Item value="LibraryAccountRepository`0" priority="31" />
+      <Item value="BorrowInfoRepository`0" priority="31" />
+      <Item value="bookRepository" priority="96" />
+      <Item value="ioc" priority="63" />
+      <Item value="book1" priority="31" />
+      <Item value="book2" priority="31" />
+      <Item value="libraryAccountRepository" priority="64" />
+      <Item value="NewsStyleUriParser`0" priority="31" />
+      <Item value="BookRepository" priority="28" />
+      <Item value="UnitOfWork`0" priority="31" />
+      <Item value="HbmMapping" priority="28" />
+      <Item value="ISession`0" priority="31" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Infrastructure.Crosscutting.SeedWork.Logging.LoggerFactory">
       <Item value="SetCurrent`0" priority="26" />
-      <Item value="CreateLog`0" priority="80" />
+      <Item value="CreateLog`0" priority="107" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Infrastructure.Crosscutting.SeedWork.Logging.ILogger">
-      <Item value="LogInfo`0" priority="26" />
+      <Item value="LogInfo`0" priority="53" />
       <Item value="LogWarning`0" priority="26" />
       <Item value="LogError`0" priority="26" />
     </ItemStatistics>
@@ -130,22 +258,132 @@
       <Item value="_instanceLocator" priority="80" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Infrastructure.Crosscutting.SeedWork.Ioc.IocFactory">
-      <Item value="SetCurrent`0" priority="26" />
-      <Item value="CreateIoc`0" priority="53" />
+      <Item value="SetCurrent`0" priority="53" />
+      <Item value="CreateIoc`0" priority="134" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Infrastructure.Crosscutting.SeedWork.Ioc.IInstanceLocator">
       <Item value="RegisterType`1" priority="26" />
-      <Item value="GetInstance`1" priority="26" />
+      <Item value="GetInstance`1" priority="107" />
       <Item value="RegisterType`0" priority="26" />
-      <Item value="IsTypeRegistered`0" priority="26" />
+      <Item value="IsTypeRegistered`0" priority="53" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
-      <Item value="IsNotNull`0" priority="80" />
+      <Item value="IsNotNull`0" priority="107" />
       <Item value="Equals`0" priority="26" />
       <Item value="IsTrue`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Microsoft.Practices.Unity.IUnityContainer">
-      <Item value="RegisterType`1" priority="26" />
+      <Item value="RegisterType`1" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:log4net.ILog">
+      <Item value="Info`0" priority="26" />
+      <Item value="Warn`0" priority="26" />
+      <Item value="Error`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infrastructure.Data.Seedwork.Repository`2">
+      <Item value="unitOfWork" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISession">
+      <Item value="Save`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+      <Item value="Update`0" priority="26" />
+      <Item value="QueryOver`1" priority="26" />
+      <Item value="Query`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ICriteria">
+      <Item value="AddOrder`0" priority="53" />
+      <Item value="List`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.Seedwork.Specification.ISpecification`1">
+      <Item value="SatisfiedBy`0" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Infrastructure.Data.Seedwork.Resources.Messages">
+      <Item value="trace_AddedItemRepository" priority="26" />
+      <Item value="trace_DeletedItemRepository" priority="26" />
+      <Item value="trace_AttachedItemToRepository" priority="26" />
+      <Item value="trace_GetAllRepository" priority="26" />
+      <Item value="trace_GetBySpec" priority="26" />
+      <Item value="trace_GetPagedElementsRepository" priority="26" />
+      <Item value="trace_GetFilteredElementsRepository" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infrastructure.Data.Seedwork.Scheduling.ILoadBalanceScheduling">
+      <Item value="Equals`0" priority="26" />
+      <Item value="GetConnectDbSnap`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infrastructure.Data.Seedwork.Scheduling.DbSnapInfo">
+      <Item value="Enable" priority="26" />
+      <Item value="DbconnectString" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Cfg.Configuration">
+      <Item value="Configure`0" priority="26" />
+      <Item value="AddAuxiliaryDatabaseObject`0" priority="26" />
+      <Item value="BuildSessionFactory`0" priority="107" />
+      <Item value="SessionFactory`0" priority="26" />
+      <Item value="Mappings`0" priority="53" />
+      <Item value="AddAssembly`0" priority="80" />
+      <Item value="SetDefaultAssembly`0" priority="26" />
+      <Item value="Proxy`0" priority="26" />
+      <Item value="SetProperty`0" priority="26" />
+      <Item value="BuildMapping`0" priority="26" />
+      <Item value="AddDeserializedMapping`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Cfg.Loquacious.IFluentSessionFactoryConfiguration">
+      <Item value="Integrate" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Cfg.Loquacious.IDbIntegrationConfiguration">
+      <Item value="Using`1" priority="26" />
+      <Item value="Connected" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Cfg.Loquacious.IConnectionConfiguration">
+      <Item value="Using`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infrastructure.Data.Seedwork.Scheduling.DbSnapAppConfig">
+      <Item value="DbSnapInfoList" priority="53" />
+      <Item value="AppDbSnap" priority="26" />
+      <Item value="RecordeLog" priority="26" />
+      <Item value="WriteWaitTime" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Infrastructure.Data.Seedwork.Scheduling.DbSnapConfigs">
+      <Item value="GetEnableSnapList`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContextBase">
+      <Item value="Server" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpServerUtilityBase">
+      <Item value="MapPath`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpContext">
+      <Item value="Current" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="Server" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpServerUtility">
+      <Item value="MapPath`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infrastructure.Data.Seedwork.DatabaseFactory">
+      <Item value="Current`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infrastructure.Data.Seedwork.DbSnap.DbSnapInfo">
+      <Item value="DbconnectString" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.MainBoundedContext.Roles.Borrower">
+      <Item value="libraryService" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.MainBoundedContext.Services.LibraryService">
+      <Item value="borrowInfoRepository" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.MainBoundedContext.Repositories.IBorrowInfoRepository">
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.MainBoundedContext.Repositories.IBookRepository">
+      <Item value="Add`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.MainBoundedContext.Repositories.ILibraryAccountRepository">
+      <Item value="Add`0" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <NAntValidationSettings>
@@ -170,9 +408,18 @@
     <Session>
       <Name>Session #2</Name>
       <Elements>
-        <UnitTestElement Provider="MSTest" Id="Infrastructure.Crosscutting.Tests.InstanceLocatorTest" type="MsTestTestClassElement" TypeName="Infrastructure.Crosscutting.Tests.InstanceLocatorTest" Project="07508E05-CABE-40C4-AC6F-C80B4D7F0047" />
-        <UnitTestElement Provider="MSTest" Id="Infrastructure.Crosscutting.Tests.InstanceLocatorTest.GetInstance" ParentId="Infrastructure.Crosscutting.Tests.InstanceLocatorTest" type="MsTestTestMethodElement" MethodName="GetInstance" Project="07508E05-CABE-40C4-AC6F-C80B4D7F0047" />
-        <UnitTestElement Provider="MSTest" Id="Infrastructure.Crosscutting.Tests.InstanceLocatorTest.IsTypeRegistered" ParentId="Infrastructure.Crosscutting.Tests.InstanceLocatorTest" type="MsTestTestMethodElement" MethodName="IsTypeRegistered" Project="07508E05-CABE-40C4-AC6F-C80B4D7F0047" />
+        <UnitTestElement Provider="MSTest" Id="Infrastructure.Data.Tests.DatabaseFactoryTest" type="MsTestTestClassElement" TypeName="Infrastructure.Data.Tests.DatabaseFactoryTest" Project="74093D4B-7A23-4B5E-8340-6F8167B0DFEC" />
+        <UnitTestElement Provider="MSTest" Id="Infrastructure.Data.Tests.DbSnapConfigsTest" type="MsTestTestClassElement" TypeName="Infrastructure.Data.Tests.DbSnapConfigsTest" Project="74093D4B-7A23-4B5E-8340-6F8167B0DFEC" />
+        <UnitTestElement Provider="MSTest" Id="Infrastructure.Crosscutting.Tests.InstanceLocatorTest" type="MsTestTestClassElement" TypeName="Infrastructure.Crosscutting.Tests.InstanceLocatorTest" Project="14981B46-4051-4488-BB96-9F5C7F524C73" />
+        <UnitTestElement Provider="MSTest" Id="Infrastructure.Crosscutting.Tests.log4netlogTest" type="MsTestTestClassElement" TypeName="Infrastructure.Crosscutting.Tests.log4netlogTest" Project="14981B46-4051-4488-BB96-9F5C7F524C73" />
+        <UnitTestElement Provider="MSTest" Id="Infrastructure.Data.Tests.DatabaseFactoryTest.Current" ParentId="Infrastructure.Data.Tests.DatabaseFactoryTest" type="MsTestTestMethodElement" MethodName="Current" Project="74093D4B-7A23-4B5E-8340-6F8167B0DFEC" />
+        <UnitTestElement Provider="MSTest" Id="Infrastructure.Data.Tests.DbSnapConfigsTest.GetEnableSnapList" ParentId="Infrastructure.Data.Tests.DbSnapConfigsTest" type="MsTestTestMethodElement" MethodName="GetEnableSnapList" Project="74093D4B-7A23-4B5E-8340-6F8167B0DFEC" />
+        <UnitTestElement Provider="MSTest" Id="Infrastructure.Crosscutting.Tests.InstanceLocatorTest.GetInstance" ParentId="Infrastructure.Crosscutting.Tests.InstanceLocatorTest" type="MsTestTestMethodElement" MethodName="GetInstance" Project="14981B46-4051-4488-BB96-9F5C7F524C73" />
+        <UnitTestElement Provider="MSTest" Id="Infrastructure.Crosscutting.Tests.InstanceLocatorTest.IsTypeRegistered" ParentId="Infrastructure.Crosscutting.Tests.InstanceLocatorTest" type="MsTestTestMethodElement" MethodName="IsTypeRegistered" Project="14981B46-4051-4488-BB96-9F5C7F524C73" />
+        <UnitTestElement Provider="MSTest" Id="Infrastructure.Crosscutting.Tests.log4netlogTest.LogError" ParentId="Infrastructure.Crosscutting.Tests.log4netlogTest" type="MsTestTestMethodElement" MethodName="LogError" Project="14981B46-4051-4488-BB96-9F5C7F524C73" />
+        <UnitTestElement Provider="MSTest" Id="Infrastructure.Crosscutting.Tests.log4netlogTest.LogErrorWithException" ParentId="Infrastructure.Crosscutting.Tests.log4netlogTest" type="MsTestTestMethodElement" MethodName="LogErrorWithException" Project="14981B46-4051-4488-BB96-9F5C7F524C73" />
+        <UnitTestElement Provider="MSTest" Id="Infrastructure.Crosscutting.Tests.log4netlogTest.LogInfo" ParentId="Infrastructure.Crosscutting.Tests.log4netlogTest" type="MsTestTestMethodElement" MethodName="LogInfo" Project="14981B46-4051-4488-BB96-9F5C7F524C73" />
+        <UnitTestElement Provider="MSTest" Id="Infrastructure.Crosscutting.Tests.log4netlogTest.LogWarning" ParentId="Infrastructure.Crosscutting.Tests.log4netlogTest" type="MsTestTestMethodElement" MethodName="LogWarning" Project="14981B46-4051-4488-BB96-9F5C7F524C73" />
       </Elements>
     </Session>
   </UnitTestSessions>

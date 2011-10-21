@@ -6,9 +6,10 @@ using Domain.Seedwork.Specification;
 
 namespace Domain.Seedwork.Repository
 {
-    public interface  IRepository<TAggregateRoot, TAggregateRootId>
+    public interface IRepository<TAggregateRoot, TAggregateRootId>
         where TAggregateRoot : Entity<TAggregateRootId>, IAggregateRoot<TAggregateRootId>
     {
+
         /// <summary>
         /// Add item into repository
         /// </summary>
@@ -22,20 +23,10 @@ namespace Domain.Seedwork.Repository
         void Remove(TAggregateRoot item);
 
         /// <summary>
-        ///Track entity into this repository, really in UnitOfWork. 
-        ///In EF this can be done with Attach and with Update in NH
+        /// Modify entity into the repository. 
         /// </summary>
-        /// <param name="item">Item to attach</param>
-        void TrackItem(TAggregateRoot item);
-
-        /// <summary>
-        /// Sets modified entity into the repository. 
-        /// When calling Commit() method in UnitOfWork 
-        /// these changes will be saved into the storage
-        /// </summary>
-        /// <param name="persisted">The persisted item</param>
-        /// <param name="current">The current item</param>
-        void Merge(TAggregateRoot persisted, TAggregateRoot current);
+        /// <param name="item"></param>
+        void Modify(TAggregateRoot item);
 
         /// <summary>
         /// Get element by entity key
@@ -74,5 +65,6 @@ namespace Domain.Seedwork.Repository
         /// <param name="filter">Filter that each element do match</param>
         /// <returns>List of selected elements</returns>
         IEnumerable<TAggregateRoot> GetFiltered(Expression<Func<TAggregateRoot, bool>> filter);
+
     }
 }

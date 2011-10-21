@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8f2cafa1-dd2b-4720-a038-6324f5d101ba" name="lanfengqi@LANFENGQI-PC 2011-10-20 10:33:26" runUser="lanfengqi-PC\lanfengqi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="62a51d66-4f45-4f59-be58-5d0791df9319">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="lanfengqi_LANFENGQI-PC 2011-10-20 10_33_26">
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Seedwork\bin\Debug\Infrastructure.Data.Seedwork.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\Castle.Core.3.0.0.2001\lib\net40-client\Castle.Core.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\NHibernate.3.1.0.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\NHibernate.Castle.3.1.0.4000\lib\Net35\NHibernate.ByteCode.Castle.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-20T10:33:26.9662592-07:00" queuing="2011-10-20T10:33:29.9424294-07:00" start="2011-10-20T10:33:30.2854490-07:00" finish="2011-10-20T10:33:35.9087707-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetEnableSnapList" storage="e:\030.github\020.dci.2.0\src\infrastructure.data.tests\bin\debug\infrastructure.data.tests.dll" id="27e46ff3-68e6-f060-cb9e-be33bb098e18">
+      <Execution id="5533aa76-7438-4fa4-a09d-3ddaefba8a3a" />
+      <TestMethod codeBase="E:/030.GitHub/020.DCI.2.0/Src/Infrastructure.Data.Tests/bin/Debug/Infrastructure.Data.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Infrastructure.Data.Tests.DbSnapConfigsTest, Infrastructure.Data.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetEnableSnapList" />
+    </UnitTest>
+    <UnitTest name="Current" storage="e:\030.github\020.dci.2.0\src\infrastructure.data.tests\bin\debug\infrastructure.data.tests.dll" id="c2b98c0a-b0fc-2f55-a0b9-2941302aa164">
+      <Execution id="adc5c1ec-a678-4a7a-b71d-5c6bb507dc17" />
+      <TestMethod codeBase="E:/030.GitHub/020.DCI.2.0/Src/Infrastructure.Data.Tests/bin/Debug/Infrastructure.Data.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Infrastructure.Data.Tests.DatabaseFactoryTest, Infrastructure.Data.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Current" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="27e46ff3-68e6-f060-cb9e-be33bb098e18" executionId="5533aa76-7438-4fa4-a09d-3ddaefba8a3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2b98c0a-b0fc-2f55-a0b9-2941302aa164" executionId="adc5c1ec-a678-4a7a-b71d-5c6bb507dc17" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5533aa76-7438-4fa4-a09d-3ddaefba8a3a" testId="27e46ff3-68e6-f060-cb9e-be33bb098e18" testName="GetEnableSnapList" computerName="LANFENGQI-PC" duration="00:00:03.4181396" startTime="2011-10-20T10:33:30.5824660-07:00" endTime="2011-10-20T10:33:35.6197541-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5533aa76-7438-4fa4-a09d-3ddaefba8a3a">
+    </UnitTestResult>
+    <UnitTestResult executionId="adc5c1ec-a678-4a7a-b71d-5c6bb507dc17" testId="c2b98c0a-b0fc-2f55-a0b9-2941302aa164" testName="Current" computerName="LANFENGQI-PC" duration="00:00:00.0817885" startTime="2011-10-20T10:33:35.6377552-07:00" endTime="2011-10-20T10:33:35.7377609-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="adc5c1ec-a678-4a7a-b71d-5c6bb507dc17">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Infrastructure.Data.Tests.DatabaseFactoryTest.Current threw exception: 
+System.IO.FileLoadException: Could not load file or assembly 'NHibernate, Version=3.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) ---&gt; System.IO.FileLoadException: Could not load file or assembly 'NHibernate, Version=3.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)</Message>
+          <StackTrace> 
+ --- End of inner exception stack trace ---
+    at Infrastructure.Data.Tests.DatabaseFactoryTest.Current()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="60b7a685-9adf-4500-97a2-905a5756fb0a" name="lanfengqi@LANFENGQI-PC 2011-10-20 11:02:54" runUser="lanfengqi-PC\lanfengqi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="62a51d66-4f45-4f59-be58-5d0791df9319">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="lanfengqi_LANFENGQI-PC 2011-10-20 11_02_54">
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\Castle.Core.3.0.0.2001\lib\net40-client\Castle.Core.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\NHibernate.3.1.0.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Seedwork\bin\Debug\Infrastructure.Data.Seedwork.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\NHibernate.Castle.3.1.0.4000\lib\Net35\NHibernate.ByteCode.Castle.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-20T11:02:54.1433359-07:00" queuing="2011-10-20T11:02:54.1673373-07:00" start="2011-10-20T11:02:54.1963390-07:00" finish="2011-10-20T11:02:57.0145002-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Current" storage="e:\030.github\020.dci.2.0\src\infrastructure.data.tests\bin\debug\infrastructure.data.tests.dll" id="c2b98c0a-b0fc-2f55-a0b9-2941302aa164">
+      <Execution id="14ee30c3-d97d-46dc-9e06-90ee398c6cb4" />
+      <TestMethod codeBase="E:/030.GitHub/020.DCI.2.0/Src/Infrastructure.Data.Tests/bin/Debug/Infrastructure.Data.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Infrastructure.Data.Tests.DatabaseFactoryTest, Infrastructure.Data.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Current" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c2b98c0a-b0fc-2f55-a0b9-2941302aa164" executionId="14ee30c3-d97d-46dc-9e06-90ee398c6cb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="14ee30c3-d97d-46dc-9e06-90ee398c6cb4" testId="c2b98c0a-b0fc-2f55-a0b9-2941302aa164" testName="Current" computerName="LANFENGQI-PC" duration="00:00:02.3742201" startTime="2011-10-20T11:02:54.2073396-07:00" endTime="2011-10-20T11:02:56.9644973-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14ee30c3-d97d-46dc-9e06-90ee398c6cb4">
+    </UnitTestResult>
+  </Results>
+</TestRun>

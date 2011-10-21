@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7ff8c56b-fcc8-40be-beba-ca32301b8862" name="lanfengqi@LANFENGQI-PC 2011-10-21 14:15:49" runUser="lanfengqi-PC\lanfengqi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="62a51d66-4f45-4f59-be58-5d0791df9319">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="lanfengqi_LANFENGQI-PC 2011-10-21 14_15_49">
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.SeedWork\bin\Debug\Infrastructure.Crosscutting.SeedWork.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\Domain.Seedwork\bin\Debug\Domain.Seedwork.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\Unity.2.1.505.0\lib\NET35\Microsoft.Practices.Unity.Configuration.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\NHibernate.Castle.3.1.0.4000\lib\Net35\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Seedwork\bin\Debug\Infrastructure.Data.Seedwork.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\Castle.Core.3.0.0.2001\lib\net40-client\Castle.Core.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\Domain.MainBoundedContext\bin\Debug\Domain.MainBoundedContext.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\Unity.2.1.505.0\lib\NET35\Microsoft.Practices.Unity.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Debug\Infrastructure.Crosscutting.MainBoundedContent.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\NHibernate.3.1.0.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.MainBoundedContext\bin\Debug\Infrastructure.Data.MainBoundedContext.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-21T14:15:49.7260123-07:00" queuing="2011-10-21T14:15:59.9445967-07:00" start="2011-10-21T14:16:00.4426252-07:00" finish="2011-10-21T14:16:49.9174550-07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="LANFENGQI-PC" outcome="Error" timestamp="2011-10-21T14:16:49.9144549-07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="e:\030.github\020.dci.2.0\src\domain.tests\bin\debug\domain.tests.dll" id="aa940502-fb54-a7d9-2cc0-120b93b93c0d">
+      <Execution id="b27d46fa-2cf8-40c8-9423-77e3e12240fa" />
+      <TestMethod codeBase="E:/030.GitHub/020.DCI.2.0/Src/Domain.Tests/bin/Debug/Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Domain.Tests.BorrowBooksContextTest, Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="aa940502-fb54-a7d9-2cc0-120b93b93c0d" executionId="b27d46fa-2cf8-40c8-9423-77e3e12240fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b27d46fa-2cf8-40c8-9423-77e3e12240fa" testId="aa940502-fb54-a7d9-2cc0-120b93b93c0d" testName="TestMethod1" computerName="LANFENGQI-PC" duration="00:00:49.0268042" startTime="2011-10-21T14:16:00.8906508-07:00" endTime="2011-10-21T14:16:49.9174550-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b27d46fa-2cf8-40c8-9423-77e3e12240fa">
+    </UnitTestResult>
+  </Results>
+</TestRun>

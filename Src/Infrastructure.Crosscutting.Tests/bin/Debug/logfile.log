@@ -1,0 +1,25 @@
+2011-10-19 14:52:58,632 [1]INFO  Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the info message
+2011-10-19 14:52:58,839 [1]WARN  Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the warning message
+2011-10-19 14:52:58,849 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the Error message
+2011-10-19 14:52:58,857 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the error message Exception:System.ArgumentNullException: Value cannot be null.
+Parameter name: param
+2011-10-19 14:54:10,462 [1]INFO  Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the info message
+2011-10-19 14:54:10,563 [1]WARN  Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the warning message
+2011-10-19 14:54:10,581 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the Error message
+2011-10-19 14:54:10,592 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the error message Exception:System.ArgumentNullException: Value cannot be null.
+Parameter name: param
+2011-10-20 11:03:40,762 [1]INFO  Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the info message
+2011-10-20 11:03:40,911 [1]WARN  Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the warning message
+2011-10-20 11:03:40,922 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the Error message
+2011-10-20 11:03:40,931 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the error message Exception:System.ArgumentNullException: Value cannot be null.
+Parameter name: param
+2011-10-20 14:54:21,009 [1]INFO  Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the info message
+2011-10-20 14:54:21,475 [1]WARN  Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the warning message
+2011-10-20 14:54:21,487 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the Error message
+2011-10-20 14:54:21,495 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the error message Exception:System.ArgumentNullException: Value cannot be null.
+Parameter name: param
+2011-10-21 13:19:39,844 [1]INFO  Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the info message
+2011-10-21 13:19:40,049 [1]WARN  Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the warning message
+2011-10-21 13:19:40,058 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the Error message
+2011-10-21 13:19:40,095 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the error message Exception:System.ArgumentNullException: Value cannot be null.
+Parameter name: param

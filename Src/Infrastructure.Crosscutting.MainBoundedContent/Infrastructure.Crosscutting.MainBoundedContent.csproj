@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.1.2.10\lib\2.0\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation">
       <HintPath>..\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
@@ -49,8 +52,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Logging\TraceSourceLog.cs" />
-    <Compile Include="Logging\TraceSourceLogFactory.cs" />
+    <Compile Include="Logging\Log4netLog.cs" />
+    <Compile Include="Logging\Log4netLogFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Unity\InstanceLocator.cs" />
     <Compile Include="Unity\InstanceLocatorFactory.cs" />
