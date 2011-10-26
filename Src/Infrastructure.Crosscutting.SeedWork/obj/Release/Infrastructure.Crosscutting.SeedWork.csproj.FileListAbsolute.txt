@@ -1,0 +1,5 @@
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.SeedWork\bin\Release\Infrastructure.Crosscutting.SeedWork.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.SeedWork\bin\Release\Infrastructure.Crosscutting.SeedWork.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.SeedWork\obj\Release\ResolveAssemblyReference.cache
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.SeedWork\obj\Release\Infrastructure.Crosscutting.SeedWork.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.SeedWork\obj\Release\Infrastructure.Crosscutting.SeedWork.pdb

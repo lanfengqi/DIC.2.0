@@ -4,6 +4,19 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using Domain.MainBoundedContext.Entities;
+using Domain.MainBoundedContext.Repositories;
+using Domain.Seedwork;
+using Domain.Seedwork.Repository;
+using Infrastructure.Crosscutting.MainBoundedContent.Logging;
+using Infrastructure.Crosscutting.MainBoundedContent.Unity;
+using Infrastructure.Crosscutting.SeedWork.Ioc;
+using Infrastructure.Crosscutting.SeedWork.Logging;
+using Infrastructure.Data.MainBoundedContext.Repositories;
+using Infrastructure.Data.Seedwork;
+using Infrastructure.Data.Seedwork.Scheduling;
+using Microsoft.Practices.Unity;
+using Domain.MainBoundedContext.Services;
 
 namespace Presentantion.Web.MVC
 {
@@ -31,6 +44,23 @@ namespace Presentantion.Web.MVC
 
         protected void Application_Start()
         {
+            var unityContainer = new UnityContainer();
+            unityContainer.RegisterType<ILibraryService, LibraryService>(new ContainerControlledLifetimeManager());
+            unityContainer.RegisterType<IBookRepository, BookRepository>(new ContainerControlledLifetimeManager());
+            unityContainer.RegisterType<ILibraryAccountRepository, LibraryAccountRepository>(new ContainerControlledLifetimeManager());
+            unityContainer.RegisterType<IBorrowInfoRepository, BorrowInfoRepository>(new ContainerControlledLifetimeManager());
+            unityContainer.RegisterType<IDatabaseFactory, DatabaseFactory>();
+            unityContainer.RegisterType<ILoadBalanceScheduling, WeightedRoundRobinScheduling>(new ContainerControlledLifetimeManager());
+            unityContainer.RegisterType<IUnitOfWork, UnitOfWork>(new ContainerControlledLifetimeManager());
+            //设置IOC
+            IocFactory.SetCurrent(new UnityFactory(unityContainer));
+            //设置Logger
+            LoggerFactory.SetCurrent(new Log4netLogFactory());
+
+            //初始化Domain
+            DomainInitializer.Current.InitializeDomain(typeof(Book).Assembly);
+            DomainInitializer.Current.ResolveDomainEvents(typeof(Book).Assembly);
+
             AreaRegistration.RegisterAllAreas();
 
             RegisterGlobalFilters(GlobalFilters.Filters);

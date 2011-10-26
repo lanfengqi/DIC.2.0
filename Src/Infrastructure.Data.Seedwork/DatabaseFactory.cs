@@ -21,16 +21,20 @@ namespace Infrastructure.Data.Seedwork
 
         public DatabaseFactory(ILoadBalanceScheduling loadBalanceScheduling)
         {
-            DbSnapInfo dbSnapInfo = loadBalanceScheduling.GetConnectDbSnap();
             //根据DbSnapInfo快照连接,创建ISessionFactory
+            DbSnapInfo dbSnapInfo = loadBalanceScheduling.GetConnectDbSnap();
             Configuration cfg = new Configuration();
             cfg.SessionFactory().Integrate.Using<MsSql2008Dialect>().Connected.Using(dbSnapInfo.DbconnectString);
             //设置Mapping默认程序集 
             cfg.AddAssembly("Infrastructure.Data.MainBoundedContext");
             //设置proxyfactory
-            cfg.SetProperty("proxyfactory.factory_class",
-                            "NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle");
-            cfg.SetProperty("connection.autocommit", "true");
+            cfg.SetProperty("proxyfactory.factory_class", "NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle");
+            //设置缓存程序
+            cfg.SetProperty("cache.provider_class", "NHibernate.Cache.HashtableCacheProvider");
+            //启动二级缓存
+            cfg.SetProperty("cache.use_second_level_cache", "true");
+            //启动查询缓存
+            cfg.SetProperty("cache.use_query_cache", "true");
             sessionFactory = cfg.BuildSessionFactory();
         }
 

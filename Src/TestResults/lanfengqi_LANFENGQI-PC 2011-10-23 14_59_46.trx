@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a417e976-41c5-4dc7-9bbf-12f9ae1dd418" name="lanfengqi@LANFENGQI-PC 2011-10-23 14:59:46" runUser="lanfengqi-PC\lanfengqi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="62a51d66-4f45-4f59-be58-5d0791df9319">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="lanfengqi_LANFENGQI-PC 2011-10-23 14_59_46">
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.SeedWork\bin\Debug\Infrastructure.Crosscutting.SeedWork.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\Domain.Seedwork\bin\Debug\Domain.Seedwork.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\Unity.2.1.505.0\lib\NET35\Microsoft.Practices.Unity.Configuration.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\NHibernate.Castle.3.1.0.4000\lib\Net35\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Seedwork\bin\Debug\Infrastructure.Data.Seedwork.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\Castle.Core.3.0.0.2001\lib\net40-client\Castle.Core.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\Domain.MainBoundedContext\bin\Debug\Domain.MainBoundedContext.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\Unity.2.1.505.0\lib\NET35\Microsoft.Practices.Unity.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Debug\Infrastructure.Crosscutting.MainBoundedContent.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\packages\NHibernate.3.1.0.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.MainBoundedContext\bin\Debug\Infrastructure.Data.MainBoundedContext.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-23T14:59:46.6018135-07:00" queuing="2011-10-23T14:59:57.7244497-07:00" start="2011-10-23T14:59:58.1214724-07:00" finish="2011-10-23T15:01:22.2562846-07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="LANFENGQI-PC" outcome="Error" timestamp="2011-10-23T15:01:22.2542845-07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BorrowBooks" storage="e:\030.github\020.dci.2.0\src\domain.tests\bin\debug\domain.tests.dll" id="e55a73b5-430d-6f64-817e-9987800fda67">
+      <Execution id="d6e07b98-556d-40da-bc2d-40b6b8ef4126" />
+      <TestMethod codeBase="E:/030.GitHub/020.DCI.2.0/Src/Domain.Tests/bin/Debug/Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Domain.Tests.BorrowBooksContextTest, Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BorrowBooks" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e55a73b5-430d-6f64-817e-9987800fda67" executionId="d6e07b98-556d-40da-bc2d-40b6b8ef4126" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d6e07b98-556d-40da-bc2d-40b6b8ef4126" testId="e55a73b5-430d-6f64-817e-9987800fda67" testName="BorrowBooks" computerName="LANFENGQI-PC" duration="00:01:23.7137882" startTime="2011-10-23T14:59:58.5424964-07:00" endTime="2011-10-23T15:01:22.2562846-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6e07b98-556d-40da-bc2d-40b6b8ef4126">
+    </UnitTestResult>
+  </Results>
+</TestRun>

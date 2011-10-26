@@ -23,3 +23,18 @@ Parameter name: param
 2011-10-21 13:19:40,058 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the Error message
 2011-10-21 13:19:40,095 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the error message Exception:System.ArgumentNullException: Value cannot be null.
 Parameter name: param
+2011-10-22 14:53:45,239 [1]INFO  Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the info message
+2011-10-22 14:53:45,422 [1]WARN  Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the warning message
+2011-10-22 14:53:45,429 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the Error message
+2011-10-22 14:53:45,437 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the error message Exception:System.ArgumentNullException: Value cannot be null.
+Parameter name: param
+2011-10-22 16:02:50,015 [1]INFO  Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the info message
+2011-10-22 16:02:50,270 [1]WARN  Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the warning message
+2011-10-22 16:02:50,280 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the Error message
+2011-10-22 16:02:50,292 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the error message Exception:System.ArgumentNullException: Value cannot be null.
+Parameter name: param
+2011-10-25 16:10:42,597 [1]INFO  Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the info message
+2011-10-25 16:10:43,018 [1]WARN  Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the warning message
+2011-10-25 16:10:43,027 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the Error message
+2011-10-25 16:10:43,064 [1]ERROR Infrastructure.Crosscutting.MainBoundedContent.Logging.Log4netLog [(null)] - the error message Exception:System.ArgumentNullException: Value cannot be null.
+Parameter name: param

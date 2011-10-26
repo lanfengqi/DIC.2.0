@@ -37,17 +37,5 @@ namespace Infrastructure.Crosscutting.SeedWork.Ioc
         /// <param name="type"></param>
         /// <returns></returns>
         bool IsTypeRegistered(Type type);
-
-        /// <summary>
-        /// 注册类型
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        void RegisterType<T>();
-
-        /// <summary>
-        /// 注册类型
-        /// </summary>
-        /// <param name="type"></param>
-        void RegisterType(Type type);
     }
 }

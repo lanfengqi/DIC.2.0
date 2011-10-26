@@ -43,6 +43,7 @@ namespace Infrastructure.Data.Seedwork
             if (item != (TAggregateRoot)null)
             {
                 session.Save(item);
+                session.Flush();
                 LoggerFactory.CreateLog()
                           .LogInfo(Messages.trace_AddedItemRepository, typeof(TAggregateRoot).ToString());
             }
@@ -62,6 +63,7 @@ namespace Infrastructure.Data.Seedwork
             if (item != (TAggregateRoot)null)
             {
                 session.Delete(item);
+                session.Flush();
                 LoggerFactory.CreateLog()
                           .LogInfo(Messages.trace_DeletedItemRepository, typeof(TAggregateRoot).ToString());
             }
@@ -81,6 +83,7 @@ namespace Infrastructure.Data.Seedwork
             if (item != (TAggregateRoot)null)
             {
                 session.Update(item);
+                session.Flush();
                 LoggerFactory.CreateLog()
                          .LogInfo(Messages.trace_AttachedItemToRepository, typeof(TAggregateRoot).ToString());
             }

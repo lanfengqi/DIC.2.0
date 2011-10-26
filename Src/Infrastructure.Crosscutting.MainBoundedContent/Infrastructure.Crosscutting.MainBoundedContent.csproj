@@ -55,8 +55,8 @@
     <Compile Include="Logging\Log4netLog.cs" />
     <Compile Include="Logging\Log4netLogFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Unity\InstanceLocator.cs" />
-    <Compile Include="Unity\InstanceLocatorFactory.cs" />
+    <Compile Include="Unity\Unity.cs" />
+    <Compile Include="Unity\UnityFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Infrastructure.Crosscutting.SeedWork\Infrastructure.Crosscutting.SeedWork.csproj">

@@ -18,7 +18,7 @@ namespace Infrastructure.Crosscutting.Tests
         {
             IUnityContainer unityContainer = new UnityContainer();
             unityContainer.RegisterType<IDisposable, ShortLivedObject>(new ContainerControlledLifetimeManager());
-            IocFactory.SetCurrent(new InstanceLocatorFactory(unityContainer));
+            IocFactory.SetCurrent(new UnityFactory(unityContainer));
         }
 
         [TestMethod]

@@ -1,0 +1,11 @@
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\bin\Debug\Application.MainBoundedContext.dll
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\bin\Debug\Application.MainBoundedContext.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\bin\Debug\Domain.MainBoundedContext.dll
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\bin\Debug\Domain.Seedwork.dll
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\bin\Debug\Infrastructure.Crosscutting.SeedWork.dll
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\bin\Debug\Domain.MainBoundedContext.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\bin\Debug\Domain.Seedwork.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\bin\Debug\Infrastructure.Crosscutting.SeedWork.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\obj\Debug\ResolveAssemblyReference.cache
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\obj\Debug\Application.MainBoundedContext.dll
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\obj\Debug\Application.MainBoundedContext.pdb

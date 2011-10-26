@@ -63,6 +63,10 @@
     <Compile Include="DbSnapConfigsTest.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Infrastructure.Data.MainBoundedContext\Infrastructure.Data.MainBoundedContext.csproj">
+      <Project>{2BAD565B-4E3D-47B2-B6A4-C883107BA6A3}</Project>
+      <Name>Infrastructure.Data.MainBoundedContext</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Infrastructure.Data.Seedwork\Infrastructure.Data.Seedwork.csproj">
       <Project>{A664D2CA-8B17-419D-B16D-063568E4CA4A}</Project>
       <Name>Infrastructure.Data.Seedwork</Name>

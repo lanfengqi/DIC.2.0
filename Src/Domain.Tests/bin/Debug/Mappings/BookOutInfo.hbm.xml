@@ -4,6 +4,7 @@
    namespace="Domain.MainBoundedContext.Entities">
 
   <class name ="BookOutInfo" table="BookOutInfo">
+    <cache usage="read-write"/>
     <id name="Id" type="Guid" access="" >
       <generator class="assigned" />
     </id>

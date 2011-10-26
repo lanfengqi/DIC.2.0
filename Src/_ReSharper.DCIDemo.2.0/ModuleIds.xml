@@ -9,6 +9,9 @@
   <Module PersistentId="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="mscorlib" />
   <Module PersistentId="302895AC-3A6C-45F8-B67F-C02A82600F83" ModuleId="Domain.MainBoundedContext" />
   <Module PersistentId="F216928E-132C-4A6A-A927-9728429049F0" ModuleId="Domain.Tests" />
-  <Module PersistentId="F57247EB-6D05-44A3-9D85-07278DDC1BF1" ModuleId="ConsoleApplication1" />
   <Module PersistentId="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3" ModuleId="Infrastructure.Data.MainBoundedContext" />
+  <Module PersistentId="77CE0021-1A2D-49F4-942E-23F45034CF17" ModuleId="Application.Seedwork" />
+  <Module PersistentId="976643AA-66DA-4727-8852-0B072C40D18B" ModuleId="DistributedServices.Seedwork" />
+  <Module PersistentId="0E90B8C4-4701-4C7A-9729-904B93B29BBF" ModuleId="DistributedServices.MainBoundedContext" />
+  <Module PersistentId="68C9EE46-2C9E-4B6F-BCA3-477A7F541819" ModuleId="Application.MainBoundedContext" />
 </Modules>

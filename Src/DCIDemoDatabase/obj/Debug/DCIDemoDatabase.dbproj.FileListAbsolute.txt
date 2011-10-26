@@ -1,0 +1,8 @@
+E:\030.GitHub\020.DCI.2.0\Src\DCIDemoDatabase\sql\debug\DCIDemoDatabase_Script.PreDeployment.sql
+E:\030.GitHub\020.DCI.2.0\Src\DCIDemoDatabase\sql\debug\DCIDemoDatabase_Script.PostDeployment.sql
+E:\030.GitHub\020.DCI.2.0\Src\DCIDemoDatabase\sql\debug\DCIDemoDatabase_Database.sqlsettings
+E:\030.GitHub\020.DCI.2.0\Src\DCIDemoDatabase\sql\debug\DCIDemoDatabase_Database.sqldeployment
+E:\030.GitHub\020.DCI.2.0\Src\DCIDemoDatabase\sql\debug\DCIDemoDatabase_Database.sqlcmdvars
+E:\030.GitHub\020.DCI.2.0\Src\DCIDemoDatabase\sql\debug\DCIDemoDatabase.deploymanifest
+E:\030.GitHub\020.DCI.2.0\Src\DCIDemoDatabase\sql\debug\DCIDemoDatabase.dbschema
+E:\030.GitHub\020.DCI.2.0\Src\DCIDemoDatabase\obj\Debug\DCIDemoDatabase.dbschema

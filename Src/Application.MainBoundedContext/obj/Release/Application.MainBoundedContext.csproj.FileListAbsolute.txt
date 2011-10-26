@@ -1,0 +1,11 @@
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\bin\Release\Application.MainBoundedContext.dll
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\bin\Release\Application.MainBoundedContext.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\bin\Release\Domain.MainBoundedContext.dll
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\bin\Release\Domain.Seedwork.dll
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\bin\Release\Infrastructure.Crosscutting.SeedWork.dll
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\bin\Release\Domain.MainBoundedContext.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\bin\Release\Domain.Seedwork.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\bin\Release\Infrastructure.Crosscutting.SeedWork.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\obj\Release\ResolveAssemblyReference.cache
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\obj\Release\Application.MainBoundedContext.dll
+E:\030.GitHub\020.DCI.2.0\Src\Application.MainBoundedContext\obj\Release\Application.MainBoundedContext.pdb

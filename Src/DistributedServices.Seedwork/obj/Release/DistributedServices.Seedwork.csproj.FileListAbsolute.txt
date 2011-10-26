@@ -1,0 +1,10 @@
+E:\030.GitHub\020.DCI.2.0\Src\DistributedServices.Seedwork\bin\Release\DistributedServices.Seedwork.dll
+E:\030.GitHub\020.DCI.2.0\Src\DistributedServices.Seedwork\bin\Release\DistributedServices.Seedwork.pdb
+E:\030.GitHub\020.DCI.2.0\Src\DistributedServices.Seedwork\bin\Release\Infrastructure.Crosscutting.SeedWork.dll
+E:\030.GitHub\020.DCI.2.0\Src\DistributedServices.Seedwork\bin\Release\Infrastructure.Crosscutting.SeedWork.pdb
+E:\030.GitHub\020.DCI.2.0\Src\DistributedServices.Seedwork\obj\Release\ResolveAssemblyReference.cache
+E:\030.GitHub\020.DCI.2.0\Src\DistributedServices.Seedwork\obj\Release\DistributedServices.Seedwork.Resources.Messages.resources
+E:\030.GitHub\020.DCI.2.0\Src\DistributedServices.Seedwork\obj\Release\GenerateResource.read.0.tlog
+E:\030.GitHub\020.DCI.2.0\Src\DistributedServices.Seedwork\obj\Release\GenerateResource.write.0.tlog
+E:\030.GitHub\020.DCI.2.0\Src\DistributedServices.Seedwork\obj\Release\DistributedServices.Seedwork.dll
+E:\030.GitHub\020.DCI.2.0\Src\DistributedServices.Seedwork\obj\Release\DistributedServices.Seedwork.pdb

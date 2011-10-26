@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<DbSnapAppConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="DbSnapAppConfig">
+  <AppDbSnap>true</AppDbSnap>
+  <WriteWaitTime>500</WriteWaitTime>
+  <LoadBalanceScheduling>WeightedRoundRobinScheduling</LoadBalanceScheduling>
+  <RecordeLog>true</RecordeLog>
+  <DbSnapInfoList>
+    <DbSnapInfo>
+      <SouceID>1</SouceID>
+      <Enable>true</Enable>
+      <DbconnectString>data source=WINDOWS-PHORTAS\SHAREPOINT;initial catalog =szcb;User ID=sa;password=hg</DbconnectString>
+      <Weight>5</Weight>
+    </DbSnapInfo>
+    <DbSnapInfo>
+      <SouceID>2</SouceID>
+      <Enable>true</Enable>
+      <DbconnectString>data source=WINDOWS-PHORTAS\SHAREPOINT;initial catalog =szcb;User ID=sa;password=hg</DbconnectString>
+      <Weight>3</Weight>
+    </DbSnapInfo>
+  </DbSnapInfoList>
+</DbSnapAppConfig>

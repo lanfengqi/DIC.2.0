@@ -1,0 +1,16 @@
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Release\Infrastructure.Crosscutting.MainBoundedContent.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Release\Infrastructure.Crosscutting.MainBoundedContent.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Release\Infrastructure.Crosscutting.SeedWork.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Release\log4net.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Release\Microsoft.Practices.ServiceLocation.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Release\Microsoft.Practices.Unity.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Release\Infrastructure.Crosscutting.SeedWork.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Release\log4net.xml
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Release\Microsoft.Practices.ServiceLocation.xml
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Release\Microsoft.Practices.Unity.xml
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\obj\Release\ResolveAssemblyReference.cache
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\obj\Release\Infrastructure.Crosscutting.MainBoundedContent.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\obj\Release\Infrastructure.Crosscutting.MainBoundedContent.pdb

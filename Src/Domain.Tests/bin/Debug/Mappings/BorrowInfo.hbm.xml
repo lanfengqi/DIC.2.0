@@ -4,6 +4,7 @@
    namespace="Domain.MainBoundedContext.Entities">
 
   <class name ="BorrowInfo" table="BorrowInfo">
+    <cache usage="read-write"/>
     <id name="Id" type="Guid" access="" >
       <generator class="assigned" />
     </id>

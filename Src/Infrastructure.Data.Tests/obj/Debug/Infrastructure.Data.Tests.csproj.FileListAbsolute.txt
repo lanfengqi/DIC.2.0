@@ -17,3 +17,12 @@ E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Tests\bin\Debug\Castle.Core.dl
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Tests\bin\Debug\NHibernate.ByteCode.Castle.dll
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Tests\bin\Debug\Castle.Core.xml
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Tests\bin\Debug\NHibernate.ByteCode.Castle.xml
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Tests\bin\Debug\Mappings\Book.hbm.xml
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Tests\bin\Debug\Mappings\BookOutInfo.hbm.xml
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Tests\bin\Debug\Mappings\BookStoreInfo.hbm.xml
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Tests\bin\Debug\Mappings\BorrowInfo.hbm.xml
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Tests\bin\Debug\Mappings\LibraryAccount.hbm.xml
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Tests\bin\Debug\Infrastructure.Data.MainBoundedContext.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Tests\bin\Debug\Domain.MainBoundedContext.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Tests\bin\Debug\Infrastructure.Data.MainBoundedContext.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Tests\bin\Debug\Domain.MainBoundedContext.pdb
