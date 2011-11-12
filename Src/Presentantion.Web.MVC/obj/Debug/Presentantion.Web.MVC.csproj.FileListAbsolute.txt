@@ -33,9 +33,12 @@ E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Infrastructure.Data.Main
 E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Infrastructure.Data.Seedwork.pdb
 E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Castle.Core.xml
 E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Iesi.Collections.xml
-E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\log4net.xml
 E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Microsoft.Practices.ServiceLocation.pdb
 E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Microsoft.Practices.ServiceLocation.xml
 E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Microsoft.Practices.Unity.xml
 E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Microsoft.Practices.Unity.Configuration.xml
 E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\NHibernate.ByteCode.Castle.xml
+E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Memcached.ClientLibrary.dll
+E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\ICSharpCode.SharpZipLib.dll
+E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Memcached.ClientLibrary.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Commons.dll

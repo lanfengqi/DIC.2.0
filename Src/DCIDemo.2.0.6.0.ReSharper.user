@@ -28,8 +28,8 @@
       <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:Repository.cs" caret="2879" fromTop="7" />
       <File id="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7/f:DomainInitializer.cs" caret="3226" fromTop="9" />
       <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:DatabaseFactory.cs" caret="566" fromTop="14" />
-      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Services/f:LibraryService.cs" caret="928" fromTop="19" />
-      <File id="F216928E-132C-4A6A-A927-9728429049F0/f:BorrowBooksContentTest.cs" caret="2241" fromTop="17" />
+      <File id="F216928E-132C-4A6A-A927-9728429049F0/f:BorrowBooksContentTest.cs" caret="2219" fromTop="16" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Services/f:LibraryService.cs" caret="704" fromTop="9" />
     </RecentFiles>
     <RecentEdits>
       <File id="67CBC824-A49E-4E9B-A947-360F3DFE65C3/d:Schema Objects/f:Book.table.sql" caret="222" fromTop="7" />

@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cache\CacheFactory.cs" />
+    <Compile Include="Cache\ICacheStrategy.cs" />
     <Compile Include="Ioc\IInstanceLocator.cs" />
     <Compile Include="Ioc\IIocFactory.cs" />
     <Compile Include="Ioc\IocFactory.cs" />

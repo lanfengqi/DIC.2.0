@@ -13,4 +13,7 @@ E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Debug\Microsoft.Practices.Unity.xml
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Debug\log4net.dll
-E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Debug\log4net.xml
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Debug\Commons.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Debug\Memcached.ClientLibrary.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.MainBoundedContent\bin\Debug\Memcached.ClientLibrary.pdb

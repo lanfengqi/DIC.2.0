@@ -8,8 +8,10 @@ using Domain.MainBoundedContext.Entities;
 using Domain.MainBoundedContext.Repositories;
 using Domain.Seedwork;
 using Domain.Seedwork.Repository;
+using Infrastructure.Crosscutting.MainBoundedContent.Cache;
 using Infrastructure.Crosscutting.MainBoundedContent.Logging;
 using Infrastructure.Crosscutting.MainBoundedContent.Unity;
+using Infrastructure.Crosscutting.SeedWork.Cache;
 using Infrastructure.Crosscutting.SeedWork.Ioc;
 using Infrastructure.Crosscutting.SeedWork.Logging;
 using Infrastructure.Data.MainBoundedContext.Repositories;
@@ -52,6 +54,7 @@ namespace Presentantion.Web.MVC
             unityContainer.RegisterType<IDatabaseFactory, DatabaseFactory>();
             unityContainer.RegisterType<ILoadBalanceScheduling, WeightedRoundRobinScheduling>(new ContainerControlledLifetimeManager());
             unityContainer.RegisterType<IUnitOfWork, UnitOfWork>(new ContainerControlledLifetimeManager());
+
             //设置IOC
             IocFactory.SetCurrent(new UnityFactory(unityContainer));
             //设置Logger
@@ -60,6 +63,12 @@ namespace Presentantion.Web.MVC
             //初始化Domain
             DomainInitializer.Current.InitializeDomain(typeof(Book).Assembly);
             DomainInitializer.Current.ResolveDomainEvents(typeof(Book).Assembly);
+
+            //初始化缓存
+            ICacheStrategy cacheStrategy = new MemCachedStrategy(
+                new MemCachedManager(Server.MapPath("/Content/xml/memCachedConfig.xml"))
+                );
+            CacheFactory.SetCurrent(cacheStrategy);
 
             AreaRegistration.RegisterAllAreas();
 

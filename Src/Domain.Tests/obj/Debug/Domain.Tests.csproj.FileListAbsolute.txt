@@ -16,7 +16,6 @@ E:\030.GitHub\020.DCI.2.0\Src\Domain.Tests\bin\Debug\Microsoft.Practices.Service
 E:\030.GitHub\020.DCI.2.0\Src\Domain.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
 E:\030.GitHub\020.DCI.2.0\Src\Domain.Tests\bin\Debug\Microsoft.Practices.Unity.xml
 E:\030.GitHub\020.DCI.2.0\Src\Domain.Tests\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
-E:\030.GitHub\020.DCI.2.0\Src\Domain.Tests\bin\Debug\log4net.xml
 E:\030.GitHub\020.DCI.2.0\Src\Domain.Tests\obj\Debug\ResolveAssemblyReference.cache
 E:\030.GitHub\020.DCI.2.0\Src\Domain.Tests\obj\Debug\Domain.Tests.dll
 E:\030.GitHub\020.DCI.2.0\Src\Domain.Tests\obj\Debug\Domain.Tests.pdb
@@ -38,3 +37,6 @@ E:\030.GitHub\020.DCI.2.0\Src\Domain.Tests\bin\Debug\Mappings\BookOutInfo.hbm.xm
 E:\030.GitHub\020.DCI.2.0\Src\Domain.Tests\bin\Debug\Mappings\BookStoreInfo.hbm.xml
 E:\030.GitHub\020.DCI.2.0\Src\Domain.Tests\bin\Debug\Mappings\BorrowInfo.hbm.xml
 E:\030.GitHub\020.DCI.2.0\Src\Domain.Tests\bin\Debug\Mappings\LibraryAccount.hbm.xml
+E:\030.GitHub\020.DCI.2.0\Src\Domain.Tests\bin\Debug\Memcached.ClientLibrary.dll
+E:\030.GitHub\020.DCI.2.0\Src\Domain.Tests\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\030.GitHub\020.DCI.2.0\Src\Domain.Tests\bin\Debug\Memcached.ClientLibrary.pdb

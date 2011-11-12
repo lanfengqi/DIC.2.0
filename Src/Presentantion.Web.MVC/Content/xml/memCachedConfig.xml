@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<MemCachedConfigInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="MemCachedConfigInfo">
+  <ApplyMemCached>true</ApplyMemCached>
+  <ServerList>192.168.200.25:11211</ServerList>
+  <PoolName>192.168.200.25</PoolName>
+  <IntConnections>3</IntConnections>
+  <MinConnections>3</MinConnections>
+  <MaxConnections>5</MaxConnections>
+  <SocketConnectTimeout>1000</SocketConnectTimeout>
+  <SocketTimeout>30</SocketTimeout>
+  <MaintenanceSleep>30</MaintenanceSleep>
+  <FailOver>true</FailOver>
+  <Nagle>false</Nagle>
+</MemCachedConfigInfo>

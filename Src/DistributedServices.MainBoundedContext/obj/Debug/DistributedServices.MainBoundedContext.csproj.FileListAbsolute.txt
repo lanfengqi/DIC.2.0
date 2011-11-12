@@ -41,3 +41,6 @@ E:\030.GitHub\020.DCI.2.0\Src\DistributedServices.MainBoundedContext\obj\Debug\D
 E:\030.GitHub\020.DCI.2.0\Src\DistributedServices.MainBoundedContext\obj\Debug\DistributedServices.MainBoundedContext.pdb
 E:\030.GitHub\020.DCI.2.0\Src\DistributedServices.MainBoundedContext\bin\Microsoft.Practices.Unity.Configuration.dll
 E:\030.GitHub\020.DCI.2.0\Src\DistributedServices.MainBoundedContext\bin\Microsoft.Practices.Unity.Configuration.xml
+E:\030.GitHub\020.DCI.2.0\Src\DistributedServices.MainBoundedContext\bin\Memcached.ClientLibrary.dll
+E:\030.GitHub\020.DCI.2.0\Src\DistributedServices.MainBoundedContext\bin\ICSharpCode.SharpZipLib.dll
+E:\030.GitHub\020.DCI.2.0\Src\DistributedServices.MainBoundedContext\bin\Memcached.ClientLibrary.pdb
