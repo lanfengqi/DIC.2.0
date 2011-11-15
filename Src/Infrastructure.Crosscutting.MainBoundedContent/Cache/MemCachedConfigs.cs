@@ -8,8 +8,9 @@ namespace Infrastructure.Crosscutting.MainBoundedContent.Cache
 {
     public static class MemCachedConfigs
     {
-        public static MemCachedConfigInfo GetConfig(string Url)
+        public static MemCachedConfigInfo GetConfig()
         {
+            string Url = PathServer.GetRootPath() + "Content\\xml\\memCachedConfig.xml";
             object objDbSnapapp = XmlSerializers.Deserialize(Url, typeof(MemCachedConfigInfo));
             if (objDbSnapapp != (MemCachedConfigInfo)null)
             {

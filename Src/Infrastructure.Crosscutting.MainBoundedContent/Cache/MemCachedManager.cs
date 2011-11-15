@@ -1,6 +1,8 @@
 ﻿using System;
-using System.Collections;
-using Memcached.ClientLibrary;
+using System.Net;
+using Enyim.Caching;
+using Enyim.Caching.Configuration;
+using Enyim.Caching.Memcached;
 
 namespace Infrastructure.Crosscutting.MainBoundedContent.Cache
 {
@@ -10,39 +12,38 @@ namespace Infrastructure.Crosscutting.MainBoundedContent.Cache
     public class MemCachedManager
     {
         #region 静态方法和属性
-        private  MemcachedClient mc = null;
-
-        private SockIOPool pool = null;
+        private MemcachedClient mc = null;
 
         private MemCachedConfigInfo memCachedConfigInfo = null;
 
         private string[] serverList = null;
         #endregion
 
-        public MemCachedManager(string xmlUrl)
+        public MemCachedManager()
         {
-            memCachedConfigInfo = MemCachedConfigs.GetConfig(xmlUrl);
+            memCachedConfigInfo = MemCachedConfigs.GetConfig();
             CreateManager();
         }
 
         private void CreateManager()
         {
             serverList = memCachedConfigInfo.ServerList.Split(',');
-            pool = SockIOPool.GetInstance(memCachedConfigInfo.PoolName);
-            pool.SetServers(serverList);
-            pool.InitConnections = memCachedConfigInfo.IntConnections;//初始化链接数
-            pool.MinConnections = memCachedConfigInfo.MinConnections;//最少链接数
-            pool.MaxConnections = memCachedConfigInfo.MaxConnections;//最大连接数
-            pool.SocketConnectTimeout = memCachedConfigInfo.SocketConnectTimeout;//Socket链接超时时间
-            pool.SocketTimeout = memCachedConfigInfo.SocketTimeout;// Socket超时时间
-            pool.MaintenanceSleep = memCachedConfigInfo.MaintenanceSleep;//维护线程休息时间
-            pool.Failover = memCachedConfigInfo.FailOver; //失效转移(一种备份操作模式)
-            pool.Nagle = memCachedConfigInfo.Nagle;//是否用nagle算法启动socket
-            pool.HashingAlgorithm = HashingAlgorithm.NewCompatibleHash;
-            pool.Initialize();
-            mc = new MemcachedClient();
-            mc.PoolName = memCachedConfigInfo.PoolName;
-            mc.EnableCompression = false;
+            MemcachedClientConfiguration config = new MemcachedClientConfiguration();
+            foreach (string server in ServerList)
+            {
+                config.Servers.Add(new IPEndPoint(
+                    IPAddress.Parse(server.Substring(0, server.LastIndexOf(':'))), Int32.Parse(server.Substring(server.LastIndexOf(':') + 1))));
+            }
+            config.Protocol = MemcachedProtocol.Text;
+            config.Authentication.Type = typeof(PlainTextAuthenticator);
+            config.SocketPool.MaxPoolSize = memCachedConfigInfo.MaxPoolSize;
+            config.SocketPool.MinPoolSize = memCachedConfigInfo.MinPoolSize;
+            config.SocketPool.ConnectionTimeout = new TimeSpan(0, 0, memCachedConfigInfo.ConnectionTimeout);
+            config.SocketPool.ReceiveTimeout = new TimeSpan(0, 0, memCachedConfigInfo.ReceiveTimeout);
+            config.SocketPool.DeadTimeout = new TimeSpan(0, 0, memCachedConfigInfo.DeadTimeout);
+            config.SocketPool.QueueTimeout = new TimeSpan(0, 0, memCachedConfigInfo.QueueTimeout);
+
+            mc = new MemcachedClient(config);
         }
 
         /// <summary>
@@ -61,7 +62,7 @@ namespace Infrastructure.Crosscutting.MainBoundedContent.Cache
         /// <summary>
         /// 客户端缓存操作对象
         /// </summary>
-        public  MemcachedClient CacheClient
+        public MemcachedClient CacheClient
         {
             get
             {
@@ -72,10 +73,10 @@ namespace Infrastructure.Crosscutting.MainBoundedContent.Cache
             }
         }
 
-        public  void Dispose()
+        public void Dispose()
         {
-            if (pool != null)
-                pool.Shutdown();
+
+
         }
 
     }

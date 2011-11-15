@@ -66,7 +66,7 @@ namespace Presentantion.Web.MVC
 
             //初始化缓存
             ICacheStrategy cacheStrategy = new MemCachedStrategy(
-                new MemCachedManager(Server.MapPath("/Content/xml/memCachedConfig.xml"))
+                new MemCachedManager()
                 );
             CacheFactory.SetCurrent(cacheStrategy);
 

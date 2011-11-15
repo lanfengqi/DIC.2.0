@@ -1,4 +1,6 @@
-﻿namespace Infrastructure.Crosscutting.MainBoundedContent.Cache
+﻿using Enyim.Caching.Memcached;
+
+namespace Infrastructure.Crosscutting.MainBoundedContent.Cache
 {
     public class MemCachedStrategy : Infrastructure.Crosscutting.SeedWork.Cache.ICacheStrategy
     {
@@ -19,11 +21,11 @@
             RemoveObject(objId);
             if (TimeOut > 0)
             {
-                memCachedManager.CacheClient.Set(objId, o, System.DateTime.Now.AddMinutes(TimeOut));
+                memCachedManager.CacheClient.Store(StoreMode.Set, objId, o, System.DateTime.Now.AddMinutes(TimeOut));
             }
             else
             {
-                memCachedManager.CacheClient.Set(objId, o);
+                memCachedManager.CacheClient.Store(StoreMode.Set, objId, o);
             }
         }
 
@@ -55,8 +57,7 @@
         /// <param name="objId"></param>
         public void RemoveObject(string objId)
         {
-            if (memCachedManager.CacheClient.KeyExists(objId))
-                memCachedManager.CacheClient.Delete(objId);
+            memCachedManager.CacheClient.Remove(objId);
         }
 
         /// <summary>

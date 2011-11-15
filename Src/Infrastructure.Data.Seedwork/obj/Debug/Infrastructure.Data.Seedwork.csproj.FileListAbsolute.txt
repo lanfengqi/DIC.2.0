@@ -13,7 +13,6 @@ E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Seedwork\obj\Debug\Infrastruct
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Seedwork\obj\Debug\Infrastructure.Data.Seedwork.Resources.Messages.resources
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Seedwork\obj\Debug\GenerateResource.read.1.tlog
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Seedwork\obj\Debug\GenerateResource.write.1.tlog
-E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Seedwork\bin\Debug\DbSnap.xml
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Seedwork\bin\Debug\Castle.Core.dll
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Seedwork\bin\Debug\NHibernate.ByteCode.Castle.dll
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Seedwork\bin\Debug\Castle.Core.xml

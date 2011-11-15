@@ -1,116 +1,117 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7/d:Entities/f:Entity.cs" caret="289" fromTop="12" />
-      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Repositories/f:BorrowInfoRepository.cs" caret="587" fromTop="14" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/d:Scheduling/f:WeightedRoundRobinScheduling.cs" caret="1463" fromTop="17" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:UnitOfWork.cs" caret="555" fromTop="14" />
-      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Ioc/f:IocFactory.cs" caret="921" fromTop="13" />
-      <File id="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7/d:Role/f:Role.cs" caret="536" fromTop="15" />
-      <File id="68C9EE46-2C9E-4B6F-BCA3-477A7F541819/f:LibraryService.cs" caret="669" fromTop="15" />
-      <File id="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C/d:Controllers/f:HomeController.cs" caret="973" fromTop="17" />
+      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Cache/f:MemCachedConfigInfo.cs" caret="1219" fromTop="52" />
+      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Ioc/f:IIocFactory.cs" caret="360" fromTop="16" />
+      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Ioc/f:IocFactory.cs" caret="944" fromTop="30" />
+      <File id="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C/f:packages.config" caret="0" fromTop="0" />
+      <File id="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C/d:Views/f:_ViewStart.cshtml" caret="8" fromTop="1" />
+      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Cache/f:MemCachedStrategy.cs" caret="393" fromTop="11" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/d:Scheduling/f:RoundRobinScheduling.cs" caret="550" fromTop="21" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/d:Scheduling/f:ILoadBalanceScheduling.cs" caret="0" fromTop="0" />
+      <File id="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C/d:Content/d:xml/f:DbSnap.xml" caret="656" fromTop="14" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Roles/f:Borrower.cs" caret="949" fromTop="19" />
       <File id="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7/d:Entities/f:AggregateRoot.cs" caret="321" fromTop="13" />
-      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Roles/f:Borrower.cs" caret="573" fromTop="11" />
-      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Entities/f:BorrowInfo.cs" caret="0" fromTop="0" />
-      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Entities/f:LibraryAccount.cs" caret="0" fromTop="0" />
-      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Entities/f:BookStoreInfo.cs" caret="0" fromTop="0" />
-      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Entities/f:BookOutInfo.cs" caret="0" fromTop="0" />
-      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Entities/f:Book.cs" caret="555" fromTop="20" />
-      <File id="F216928E-132C-4A6A-A927-9728429049F0/f:app.config" caret="0" fromTop="0" />
-      <File id="F216928E-132C-4A6A-A927-9728429049F0/f:SpecificationTests.cs" caret="211" fromTop="6" />
-      <File id="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7/d:Entities/f:IValueObject.cs" caret="266" fromTop="13" />
-      <File id="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7/d:Entities/f:TValueObject.cs" caret="129" fromTop="0" />
-      <File id="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C/f:Global.asax.cs" caret="2574" fromTop="43" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/d:DbSnap/f:DbSnapAppConfig.cs" caret="197" fromTop="9" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/d:DbSnap/f:DbSnapConfigs.cs" caret="259" fromTop="0" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:packages.config" caret="285" fromTop="6" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/d:DbSnap/f:DbSnapInfo.cs" caret="0" fromTop="0" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:Repository.cs" caret="2879" fromTop="7" />
-      <File id="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7/f:DomainInitializer.cs" caret="3226" fromTop="9" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:DatabaseFactory.cs" caret="566" fromTop="14" />
-      <File id="F216928E-132C-4A6A-A927-9728429049F0/f:BorrowBooksContentTest.cs" caret="2219" fromTop="16" />
-      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Services/f:LibraryService.cs" caret="704" fromTop="9" />
+      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Cache/f:ICacheStrategy.cs" caret="1381" fromTop="6" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Services/f:LibraryService.cs" caret="616" fromTop="18" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Entities/f:BorrowInfo.cs" caret="336" fromTop="10" />
+      <File id="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7/d:Entities/f:Entity.cs" caret="289" fromTop="12" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/d:DbSnap/f:DbSnapConfigs.cs" caret="558" fromTop="19" />
+      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Tool/f:PathServer.cs" caret="2393" fromTop="18" />
+      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Tool/f:XmlSerializer.cs" caret="3384" fromTop="14" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/d:Scheduling/f:WeightedRoundRobinScheduling.cs" caret="2091" fromTop="20" />
+      <File id="302895AC-3A6C-45F8-B67F-C02A82600F83/d:Contexts/f:BorrowBooksContext.cs" caret="318" fromTop="10" />
+      <File id="68C9EE46-2C9E-4B6F-BCA3-477A7F541819/f:LibraryService.cs" caret="669" fromTop="21" />
+      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Cache/f:MemCachedConfigs.cs" caret="311" fromTop="10" />
+      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Cache/f:MemCachedManager.cs" caret="647" fromTop="19" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:Repository.cs" caret="1080" fromTop="7" />
+      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Repositories/f:BorrowInfoRepository.cs" caret="576" fromTop="16" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:DatabaseFactory.cs" caret="1587" fromTop="31" />
+      <File id="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C/d:Controllers/f:HomeController.cs" caret="716" fromTop="22" />
+      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Cache/f:CacheFactory.cs" caret="922" fromTop="19" />
+      <File id="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C/f:Global.asax.cs" caret="1318" fromTop="11" />
+      <File id="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C/d:Content/d:xml/f:memCachedConfig.xml" caret="624" fromTop="13" />
     </RecentFiles>
     <RecentEdits>
-      <File id="67CBC824-A49E-4E9B-A947-360F3DFE65C3/d:Schema Objects/f:Book.table.sql" caret="222" fromTop="7" />
-      <File id="67CBC824-A49E-4E9B-A947-360F3DFE65C3/d:Schema Objects/f:Book.table.sql" caret="436" fromTop="12" />
-      <File id="68C9EE46-2C9E-4B6F-BCA3-477A7F541819/f:LibraryService.cs" caret="270" fromTop="7" />
-      <File id="68C9EE46-2C9E-4B6F-BCA3-477A7F541819/f:LibraryService.cs" caret="1104" fromTop="24" />
-      <File id="68C9EE46-2C9E-4B6F-BCA3-477A7F541819/f:LibraryService.cs" caret="809" fromTop="21" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:DatabaseFactory.cs" caret="1517" fromTop="25" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:DatabaseFactory.cs" caret="1457" fromTop="27" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:DatabaseFactory.cs" caret="1146" fromTop="21" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:DatabaseFactory.cs" caret="784" fromTop="15" />
-      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:Book.hbm.xml" caret="259" fromTop="6" />
-      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:BookOutInfo.hbm.xml" caret="273" fromTop="6" />
-      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:BookStoreInfo.hbm.xml" caret="277" fromTop="6" />
-      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:BorrowInfo.hbm.xml" caret="271" fromTop="6" />
-      <File id="2BAD565B-4E3D-47B2-B6A4-C883107BA6A3/d:Mappings/f:LibraryAccount.hbm.xml" caret="279" fromTop="6" />
-      <File id="F216928E-132C-4A6A-A927-9728429049F0/f:BorrowBooksContentTest.cs" caret="810" fromTop="21" />
-      <File id="F216928E-132C-4A6A-A927-9728429049F0/f:SpecificationTests.cs" caret="303" fromTop="11" />
-      <File id="F216928E-132C-4A6A-A927-9728429049F0/f:SpecificationTests.cs" caret="504" fromTop="19" />
-      <File id="F216928E-132C-4A6A-A927-9728429049F0/f:SpecificationTests.cs" caret="12802" fromTop="33" />
-      <File id="F216928E-132C-4A6A-A927-9728429049F0/f:SpecificationTests.cs" caret="12249" fromTop="18" />
-      <File id="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7/d:Entities/f:IValueObject.cs" caret="266" fromTop="13" />
-      <File id="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7/d:Entities/f:TValueObject.cs" caret="2034" fromTop="33" />
-      <File id="AA56C88D-D302-4E1B-9C12-5CB5136C4CA7/d:Entities/f:TValueObject.cs" caret="150" fromTop="7" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:Repository.cs" caret="923" fromTop="19" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:Repository.cs" caret="1423" fromTop="21" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:Repository.cs" caret="2123" fromTop="26" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/f:Repository.cs" caret="2879" fromTop="25" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/d:DbSnap/f:DbSnapConfigs.cs" caret="596" fromTop="11" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/d:DbSnap/f:DbSnapConfigs.cs" caret="966" fromTop="23" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/d:DbSnap/f:DbSnapConfigs.cs" caret="511" fromTop="18" />
-      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/d:DbSnap/f:DbSnapConfigs.cs" caret="259" fromTop="9" />
+      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Cache/f:MemCachedManager.cs" caret="2493" fromTop="14" />
+      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Cache/f:MemCachedStrategy.cs" caret="699" fromTop="17" />
+      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Cache/f:MemCachedStrategy.cs" caret="891" fromTop="22" />
+      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Cache/f:MemCachedStrategy.cs" caret="1827" fromTop="24" />
+      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Cache/f:MemCachedStrategy.cs" caret="2112" fromTop="24" />
+      <File id="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C/f:Global.asax.cs" caret="769" fromTop="7" />
+      <File id="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C/f:Global.asax.cs" caret="2608" fromTop="12" />
+      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Cache/f:MemCachedStrategy.cs" caret="368" fromTop="12" />
+      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Ioc/f:IocFactory.cs" caret="184" fromTop="4" />
+      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Cache/f:CacheFactory.cs" caret="945" fromTop="33" />
+      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Cache/f:CacheFactory.cs" caret="270" fromTop="10" />
+      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Cache/f:CacheFactory.cs" caret="618" fromTop="21" />
+      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Cache/f:CacheFactory.cs" caret="912" fromTop="21" />
+      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Cache/f:MemCachedStrategy.cs" caret="290" fromTop="6" />
+      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Cache/f:MemCachedStrategy.cs" caret="256" fromTop="6" />
+      <File id="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C/d:Controllers/f:HomeController.cs" caret="267" fromTop="8" />
+      <File id="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C/d:Controllers/f:HomeController.cs" caret="716" fromTop="23" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/d:DbSnap/f:DbSnapConfigs.cs" caret="855" fromTop="25" />
+      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Tool/f:PathServer.cs" caret="2394" fromTop="33" />
+      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Tool/f:PathServer.cs" caret="1702" fromTop="19" />
+      <File id="9DC35EC0-469C-4865-ABA1-18FC83EA6482/d:Tool/f:PathServer.cs" caret="1863" fromTop="14" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/d:DbSnap/f:DbSnapConfigs.cs" caret="133" fromTop="2" />
+      <File id="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C/d:Controllers/f:HomeController.cs" caret="1407" fromTop="23" />
+      <File id="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C/d:Controllers/f:HomeController.cs" caret="702" fromTop="15" />
+      <File id="A664D2CA-8B17-419D-B16D-063568E4CA4A/d:DbSnap/f:DbSnapConfigs.cs" caret="732" fromTop="23" />
+      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Cache/f:MemCachedManager.cs" caret="529" fromTop="21" />
+      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Cache/f:MemCachedConfigs.cs" caret="138" fromTop="4" />
+      <File id="5BE8D1CB-DC29-432A-9638-455CBD794B3E/d:Cache/f:MemCachedConfigs.cs" caret="410" fromTop="12" />
+      <File id="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C/f:Global.asax.cs" caret="3106" fromTop="20" />
+      <File id="59D59818-D084-4E60-BDA2-7C8AAFBD6F7C/d:Content/d:xml/f:memCachedConfig.xml" caret="248" fromTop="3" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="public" priority="2291" />
-      <Item value="static" priority="252" />
+      <Item value="public" priority="2481" />
+      <Item value="static" priority="378" />
       <Item value="ILoggerFactory`0" priority="127" />
-      <Item value="null" priority="351" />
+      <Item value="null" priority="415" />
       <Item value="#region" priority="31" />
-      <Item value="#endregion" priority="223" />
-      <Item value="using" priority="1084" />
-      <Item value="Infrastructure.Crosscutting" priority="309" />
+      <Item value="#endregion" priority="255" />
+      <Item value="using" priority="1208" />
+      <Item value="Infrastructure.Crosscutting" priority="340" />
       <Item value="SeedWork.Logging" priority="53" />
       <Item value="ILogger`0" priority="191" />
       <Item value="TestContext`0" priority="31" />
       <Item value="context" priority="32" />
-      <Item value="Infrastructure" priority="375" />
-      <Item value="Crosscutting" priority="134" />
-      <Item value="SeedWork" priority="296" />
+      <Item value="Infrastructure" priority="596" />
+      <Item value="Crosscutting" priority="323" />
+      <Item value="SeedWork" priority="485" />
       <Item value="MainBoundedContent.Logging" priority="26" />
       <Item value="LoggerFactory`0" priority="191" />
-      <Item value="new" priority="1055" />
+      <Item value="new" priority="1183" />
       <Item value="TraceSourceLogFactory" priority="28" />
       <Item value="partial" priority="30" />
       <Item value="logger" priority="292" />
-      <Item value="void" priority="191" />
+      <Item value="void" priority="223" />
       <Item value="TestMethod" priority="95" />
-      <Item value="interface" priority="155" />
+      <Item value="interface" priority="186" />
       <Item value="IInstanceLocator`0" priority="319" />
       <Item value="IIocFactory`0" priority="63" />
       <Item value="Ioc" priority="242" />
-      <Item value="private" priority="287" />
+      <Item value="private" priority="319" />
       <Item value="Microsoft" priority="92" />
       <Item value="Practices" priority="80" />
       <Item value="Unity" priority="107" />
       <Item value="IUnityContainer`0" priority="159" />
       <Item value="_unityContainer" priority="64" />
-      <Item value="unityContainer" priority="355" />
-      <Item value="this" priority="351" />
+      <Item value="unityContainer" priority="387" />
+      <Item value="this" priority="447" />
       <Item value="base" priority="63" />
       <Item value="UnityContainer" priority="86" />
       <Item value="InstanceLocator" priority="115" />
-      <Item value="return" priority="319" />
+      <Item value="return" priority="351" />
       <Item value="_instanceLocator" priority="32" />
       <Item value="IFormatProvider`0" priority="31" />
       <Item value="InstanceLocator`0" priority="63" />
       <Item value="InstanceLocatorFactory`0" priority="31" />
       <Item value="ClassInitialize" priority="31" />
-      <Item value="MainBoundedContent" priority="26" />
+      <Item value="MainBoundedContent" priority="53" />
       <Item value="IocFactory`0" priority="336" />
       <Item value="InstanceLocatorFactory" priority="28" />
       <Item value="instanceLocator" priority="98" />
@@ -120,8 +121,8 @@
       <Item value="IDisposable`0" priority="223" />
       <Item value="ShortLivedObject`0" priority="31" />
       <Item value="ContainerControlledLifetimeManager" priority="86" />
-      <Item value="object" priority="95" />
-      <Item value="typeof" priority="127" />
+      <Item value="object" priority="127" />
+      <Item value="typeof" priority="159" />
       <Item value="obj" priority="63" />
       <Item value="bool" priority="191" />
       <Item value="IEntity" priority="31" />
@@ -143,7 +144,7 @@
       <Item value="IDatabaseFactory`0" priority="127" />
       <Item value="iUnitOfWork" priority="63" />
       <Item value="_unitOfWork" priority="64" />
-      <Item value="if" priority="191" />
+      <Item value="if" priority="223" />
       <Item value="item" priority="95" />
       <Item value="TAggregateRoot`0" priority="95" />
       <Item value="session" priority="223" />
@@ -169,7 +170,7 @@
       <Item value="sessionFactory" priority="31" />
       <Item value="Domain" priority="280" />
       <Item value="Seedwork" priority="242" />
-      <Item value="string" priority="95" />
+      <Item value="string" priority="285" />
       <Item value="IConfigInfo`0" priority="31" />
       <Item value="Deserialize`0" priority="31" />
       <Item value="_Path" priority="31" />
@@ -186,7 +187,7 @@
       <Item value="Url" priority="63" />
       <Item value="snapAppConfig" priority="192" />
       <Item value="DbSnapAppConfig" priority="28" />
-      <Item value="true" priority="128" />
+      <Item value="true" priority="192" />
       <Item value="List&lt;DbSnapInfo&gt;" priority="57" />
       <Item value="DbSnapInfo" priority="28" />
       <Item value="DbconnectString" priority="31" />
@@ -202,8 +203,8 @@
       <Item value="RoundRobinScheduling" priority="28" />
       <Item value="weighted" priority="64" />
       <Item value="WeightedRoundRobinScheduling" priority="28" />
-      <Item value="Tool" priority="26" />
-      <Item value="XmlSerializers`0" priority="31" />
+      <Item value="Tool" priority="80" />
+      <Item value="XmlSerializers`0" priority="58" />
       <Item value="GetEnableSnapList`0" priority="63" />
       <Item value="Collections" priority="26" />
       <Item value="IList`0" priority="31" />
@@ -244,13 +245,33 @@
       <Item value="LibraryAccount`0" priority="63" />
       <Item value="Book`0" priority="127" />
       <Item value="books" priority="128" />
-      <Item value="false" priority="31" />
+      <Item value="false" priority="63" />
       <Item value="Application" priority="31" />
       <Item value="Services" priority="26" />
       <Item value="factory" priority="32" />
       <Item value="RoundRobinScheduling`0" priority="31" />
       <Item value="IValueObject`0" priority="31" />
       <Item value="getDbSnapAppConfig`0" priority="31" />
+      <Item value="try" priority="63" />
+      <Item value="serverArrayList" priority="31" />
+      <Item value="MemCachedManager`0" priority="31" />
+      <Item value="Cache" priority="107" />
+      <Item value="ICacheStrategy`0" priority="85" />
+      <Item value="memCachedConfigInfo" priority="31" />
+      <Item value="MemCachedConfigInfo`0" priority="90" />
+      <Item value="MemCachedConfigs`0" priority="31" />
+      <Item value="key" priority="31" />
+      <Item value="memCachedManager" priority="64" />
+      <Item value="cacheStrategy" priority="258" />
+      <Item value="_currentCacheStrategy" priority="95" />
+      <Item value="MemCachedStrategy" priority="28" />
+      <Item value="MemCachedManager" priority="28" />
+      <Item value="CacheFactory`0" priority="63" />
+      <Item value="memCachedConfig" priority="384" />
+      <Item value="MemCachedConfigInfo" priority="28" />
+      <Item value="Server" priority="31" />
+      <Item value="objCache" priority="31" />
+      <Item value="PathServer`0" priority="63" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Infrastructure.Crosscutting.SeedWork.Logging.LoggerFactory">
       <Item value="SetCurrent`0" priority="26" />
@@ -364,7 +385,7 @@
       <Item value="Server" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.HttpServerUtilityBase">
-      <Item value="MapPath`0" priority="26" />
+      <Item value="MapPath`0" priority="53" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Web.HttpContext">
       <Item value="Current" priority="26" />
@@ -404,6 +425,58 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:Infrastructure.Data.Seedwork.DbSnap.DbSnapAppConfig">
       <Item value="DbSnapInfoList" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Split`0" priority="108" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Memcached.ClientLibrary.MemcachedClient">
+      <Item value="Stats`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Infrastructure.Crosscutting.MainBoundedContent.Cache.MemCachedManager">
+      <Item value="CacheClient" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infrastructure.Crosscutting.MainBoundedContent.Cache.MemCachedConfigInfo">
+      <Item value="ServerList" priority="53" />
+      <Item value="PoolName" priority="80" />
+      <Item value="ApplyMemCached" priority="26" />
+      <Item value="FailOver" priority="26" />
+      <Item value="IntConnections" priority="26" />
+      <Item value="MaintenanceSleep" priority="26" />
+      <Item value="MaxConnections" priority="26" />
+      <Item value="MinConnections" priority="26" />
+      <Item value="Nagle" priority="26" />
+      <Item value="SocketConnectTimeout" priority="26" />
+      <Item value="SocketTimeout" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Infrastructure.Crosscutting.MainBoundedContent.Cache.MemCachedConfigs">
+      <Item value="GetConfig`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Memcached.ClientLibrary.SockIOPool">
+      <Item value="GetSock`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Practices.Unity.UnityContainer">
+      <Item value="RegisterType`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infrastructure.Crosscutting.MainBoundedContent.Cache.MemCachedStrategy">
+      <Item value="memCachedManager" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Infrastructure.Crosscutting.SeedWork.Cache.CacheFactory">
+      <Item value="SetCurrent`0" priority="26" />
+      <Item value="Create`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Infrastructure.Crosscutting.SeedWork.Tool.XmlSerializers">
+      <Item value="Serialize`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infrastructure.Crosscutting.SeedWork.Cache.ICacheStrategy">
+      <Item value="AddObject`0" priority="26" />
+      <Item value="TimeOut" priority="26" />
+      <Item value="RetrieveObject`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Infrastructure.Crosscutting.SeedWork.Tool.PathServer">
+      <Item value="GetRootPath`0" priority="53" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <NAntValidationSettings>

@@ -8,7 +8,6 @@ E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Mappings\BookOutInfo.hbm
 E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Mappings\BookStoreInfo.hbm.xml
 E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Mappings\BorrowInfo.hbm.xml
 E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Mappings\LibraryAccount.hbm.xml
-E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\DbSnap.xml
 E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Application.MainBoundedContext.dll
 E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Castle.Core.dll
 E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Domain.MainBoundedContext.dll
@@ -38,7 +37,7 @@ E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Microsoft.Practices.Serv
 E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Microsoft.Practices.Unity.xml
 E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Microsoft.Practices.Unity.Configuration.xml
 E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\NHibernate.ByteCode.Castle.xml
-E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Memcached.ClientLibrary.dll
-E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\ICSharpCode.SharpZipLib.dll
-E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Memcached.ClientLibrary.pdb
-E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Commons.dll
+E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Content\xml\DbSnap.xml
+E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Enyim.Caching.dll
+E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Enyim.Caching.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Presentantion.Web.MVC\bin\Enyim.Caching.xml

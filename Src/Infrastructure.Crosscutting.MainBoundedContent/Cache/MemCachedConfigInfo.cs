@@ -5,21 +5,6 @@
     /// </summary>
     public class MemCachedConfigInfo
     {
-        private bool _applyMemCached;
-        /// <summary>
-        /// 是否应用MemCached
-        /// </summary>
-        public bool ApplyMemCached
-        {
-            get
-            {
-                return _applyMemCached;
-            }
-            set
-            {
-                _applyMemCached = value;
-            }
-        }
 
         private string _serverList;
         /// <summary>
@@ -53,133 +38,100 @@
             }
         }
 
-        private int _intConnections;
+        private int _minPoolSize;
         /// <summary>
-        /// 初始化链接数
+        /// 最小链接数
         /// </summary>
-        public int IntConnections
+        public int MinPoolSize
         {
             get
             {
-                return _intConnections > 0 ? _intConnections : 3;
+                return _minPoolSize > 0 ? _minPoolSize : 10;
             }
             set
             {
-                _intConnections = value;
+                _minPoolSize = value;
             }
         }
 
-        private int _minConnections;
+        private int _maxPoolSize;
         /// <summary>
-        /// 最少链接数
+        /// 最大链接数
         /// </summary>
-        public int MinConnections
+        public int MaxPoolSize
         {
             get
             {
-                return _minConnections > 0 ? _minConnections : 3;
+                return _maxPoolSize > 0 ? _maxPoolSize : 20;
             }
             set
             {
-                _minConnections = value;
+                _maxPoolSize = value;
             }
         }
 
-        private int _maxConnections;
+        private int _connectionTimeout;
         /// <summary>
-        /// 最大连接数
+        /// 连接超时时间
         /// </summary>
-        public int MaxConnections
+        public int ConnectionTimeout
         {
             get
             {
-                return _maxConnections > 0 ? _maxConnections : 5;
+                return _connectionTimeout > 0 ? _connectionTimeout : 10;
             }
             set
             {
-                _maxConnections = value;
+                _connectionTimeout = value;
             }
         }
 
-        private int _socketConnectTimeout;
+        private int _receiveTimeout;
         /// <summary>
-        /// Socket链接超时时间
+        /// 接受超时时间
         /// </summary>
-        public int SocketConnectTimeout
+        public int ReceiveTimeout
         {
             get
             {
-                return _socketConnectTimeout > 1000 ? _socketConnectTimeout : 1000;
+                return _receiveTimeout > 0 ? _receiveTimeout : 10;
             }
             set
             {
-                _socketConnectTimeout = value;
+                _receiveTimeout = value;
             }
         }
 
-        private int _socketTimeout;
+        private int _deadTimeout;
         /// <summary>
-        /// socket超时时间
+        /// 死链接超时时间
         /// </summary>
-        public int SocketTimeout
+        public int DeadTimeout
         {
             get
             {
-                return _socketTimeout > 1000 ? _maintenanceSleep : 3000;
+                return _deadTimeout > 0 ? _deadTimeout : 10;
             }
             set
             {
-                _socketTimeout = value;
+                _deadTimeout = value;
             }
         }
 
-        private int _maintenanceSleep;
+        private int _queueTimeout;
         /// <summary>
-        /// 维护线程休息时间
+        /// 队列超时
         /// </summary>
-        public int MaintenanceSleep
+        public int QueueTimeout
         {
             get
             {
-                return _maintenanceSleep > 0 ? _maintenanceSleep : 30;
+                return _queueTimeout > 0 ? _queueTimeout : 100;
             }
             set
             {
-                _maintenanceSleep = value;
+                _queueTimeout = value;
             }
         }
-
-        private bool _failOver;
-        /// <summary>
-        /// 链接失败后是否重启,详情参见http://baike.baidu.com/view/1084309.htm
-        /// </summary>
-        public bool FailOver
-        {
-            get
-            {
-                return _failOver;
-            }
-            set
-            {
-                _failOver = value;
-            }
-        }
-
-        private bool _nagle;
-        /// <summary>
-        /// 是否用nagle算法启动socket
-        /// </summary>
-        public bool Nagle
-        {
-            get
-            {
-                return _nagle;
-            }
-            set
-            {
-                _nagle = value;
-            }
-        }
-
     }
 }

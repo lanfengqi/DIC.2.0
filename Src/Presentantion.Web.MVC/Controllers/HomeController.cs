@@ -19,12 +19,10 @@ namespace Presentantion.Web.MVC.Controllers
         public ActionResult Index()
         {
             ICacheStrategy cacheStrategy = CacheFactory.Create();
-            cacheStrategy.TimeOut = 30000;
             cacheStrategy.AddObject("key", "keyValue");
 
 
             object objCache = cacheStrategy.RetrieveObject("key");
-
 
 
             //var book1 = new Book { BookName = "C#高级编程", Author = "Jhon Smith", ISBN = "56-YAQ-23452", Publisher = "清华大学出版社", Description = "A very good book." };

@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using System.Security.Policy;
+using Infrastructure.Crosscutting.SeedWork.Tool;
 using Infrastructure.Crosscutting.SeedWork.Tool;
 
 namespace Infrastructure.Data.Seedwork.DbSnap
@@ -21,9 +21,9 @@ namespace Infrastructure.Data.Seedwork.DbSnap
         /// <returns></returns>
         public static DbSnapAppConfig GetDbSnapAppConfig()
         {
-            string Url = @"E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.Seedwork\bin\Debug\DbSnap.xml";
+            string Url = PathServer.GetRootPath() + @"Content\\xml\\DbSnap.xml";
             object objDbSnapapp = XmlSerializers.Deserialize(Url, typeof(DbSnapAppConfig));
-            if (objDbSnapapp != null && objDbSnapapp != (DbSnapAppConfig)null)
+            if (objDbSnapapp != (DbSnapAppConfig)null)
             {
                 return (DbSnapAppConfig)objDbSnapapp;
             }

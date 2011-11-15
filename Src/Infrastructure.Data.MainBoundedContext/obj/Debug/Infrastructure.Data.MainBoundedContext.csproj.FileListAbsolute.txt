@@ -1,5 +1,4 @@
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.MainBoundedContext\obj\Debug\ResolveAssemblyReference.cache
-E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.MainBoundedContext\bin\Debug\DbSnap.xml
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.MainBoundedContext\bin\Debug\Infrastructure.Data.MainBoundedContext.dll
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.MainBoundedContext\bin\Debug\Infrastructure.Data.MainBoundedContext.pdb
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Data.MainBoundedContext\bin\Debug\Domain.MainBoundedContext.dll

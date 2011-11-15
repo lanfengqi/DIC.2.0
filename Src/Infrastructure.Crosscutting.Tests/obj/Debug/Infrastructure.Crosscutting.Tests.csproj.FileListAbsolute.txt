@@ -15,6 +15,7 @@ E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.Tests\obj\Debug\Resolv
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.Tests\obj\Debug\Infrastructure.Crosscutting.Tests.dll
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.Tests\obj\Debug\Infrastructure.Crosscutting.Tests.pdb
 E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.Tests\bin\Debug\log4net.dll
-E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.Tests\bin\Debug\Memcached.ClientLibrary.dll
-E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.Tests\bin\Debug\ICSharpCode.SharpZipLib.dll
-E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.Tests\bin\Debug\Memcached.ClientLibrary.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.Tests\bin\Debug\Enyim.Caching.dll
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.Tests\bin\Debug\Enyim.Caching.pdb
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.Tests\bin\Debug\Enyim.Caching.xml
+E:\030.GitHub\020.DCI.2.0\Src\Infrastructure.Crosscutting.Tests\bin\Debug\log4net.xml
